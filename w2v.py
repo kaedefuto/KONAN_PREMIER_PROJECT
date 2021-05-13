@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 #モデルの読み込み
-#model = word2vec.Word2Vec.load("./entity_vector/entity_vector.model.w2v")
+#model = word2vec.Word2Vec.load("./.w2v")
 model = KeyedVectors.load_word2vec_format("./entity_vector/entity_vector.model.bin",binary=True)
 
 #形態素解析
@@ -16,6 +16,7 @@ def mecab(text):
     return text
 
 # テキストのベクトルを計算
+"""
 def get_vector(text):
     sum_vec = np.zeros(200)
     word_count = 0
@@ -31,7 +32,7 @@ def get_vector(text):
             word_count += 1
         node = node.next
     return sum_vec / word_count
-
+"""
 # cos類似度を計算
 def cos_sim(v1, v2):
     return np.dot(v1, v2) / (np.linalg.norm(v1) * np.linalg.norm(v2))
@@ -39,13 +40,14 @@ def cos_sim(v1, v2):
 #------------------------------------------------------------------------------------
 #テキスト間の類似度を測る
 #学習にない単語があるとエラーが出る
+"""
 v1 = get_vector("昨日、お笑い番組を見た。")
 v2 = get_vector("昨夜、テレビで漫才をやっていた。")
 v3 = get_vector("昨日、公園に行った。")
 
 print(cos_sim(v1, v2))
 print(cos_sim(v1, v3))
-
+"""
 #------------------------------------------------------------------------------------
 #類義語の発見
 #コサイン類似度が高い順に並ぶ
