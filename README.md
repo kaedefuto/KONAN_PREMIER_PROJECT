@@ -1,5 +1,9 @@
 # KONAN_PREMIER_PROJECT
-漫才台本自動生成  
+漫才台本自動生成用プログラム  
+
+## テンプレート
+- xml_run.py
+
 
 参考記事 
 
