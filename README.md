@@ -14,7 +14,7 @@ convXML.py　　
 python xml_run.py
 ```
 
-参考記事 
+## 参考記事 
 
 word2vec  
 https://qiita.com/kenta1984/items/93b64768494f971edf86
