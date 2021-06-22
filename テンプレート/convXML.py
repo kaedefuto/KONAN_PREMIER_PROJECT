@@ -204,6 +204,7 @@ def splitXml(file_pass):
     str_volume = []
     str_pitch = []
     str_speed = []
+    str_range = []
 
     # XMLファイル読み込み
     # tree = ET.parse(made_pass + file_pass)
@@ -238,6 +239,11 @@ def splitXml(file_pass):
                 str_speed.append(voice.find(".//line").get("speed"))
             else:
                 str_speed.append("100%")
+            # range
+            if voice.find(".//line").get("range") != None:
+                str_range.append(voice.find(".//line").get("range"))
+            else:
+                str_range.append("100%")
 
     # 発話、Bob、Maryの取得
     for balloon in root.findall(".//command"):
@@ -276,6 +282,7 @@ def splitXml(file_pass):
         line.set("volume", str_volume[i])
         line.set("pitch", str_pitch[i])
         line.set("speed", str_speed[i])
+        line.set("range", str_range[i])
 
         tree = ET.ElementTree(New_root)
 
