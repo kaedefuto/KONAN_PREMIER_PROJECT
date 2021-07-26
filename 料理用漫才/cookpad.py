@@ -1,4 +1,14 @@
 # -*- coding: utf-8 -*-
+"""
+https://cookpad.com/pickup_recipes?date=0726
+のピックアップレシピの日にちを指定
+指定した日にち（例：0726と指定、7月26日）のそこに載ってるレシピデータを抽出
+
+使い方
+$ python cookpad.py 0726
+ピックアップ 0726.csv"という名前で保存される
+"""
+
 #BeautifulSoupとutllibをインポート
 from bs4 import BeautifulSoup
 import urllib.request
