@@ -1,14 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-https://cookpad.com/pickup_recipes?date=0726
-のピックアップレシピの日にちを指定
-指定した日にち（例：0726と指定、7月26日）のそこに載ってるレシピデータを抽出
-
-使い方
-$ python cookpad.py 0726
-ピックアップ 0726.csv"という名前で保存される
-"""
-
 #BeautifulSoupとutllibをインポート
 from bs4 import BeautifulSoup
 import urllib.request
@@ -20,6 +10,11 @@ import pandas as pd
 
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
+
+import datetime
+dt_now = datetime.datetime.now()
+day=dt_now.strftime('%m%d')
+
 
 links = [] #ページにあるリンク10個*5ページを格納する
 maintexts = [] #txtファイルに書き込む文章
@@ -40,10 +35,12 @@ def htmlExtraction(url):
             import traceback
             traceback.print_exc()
 
-querytxt = "ピックアップ" + " " + str(sys.argv[1]) #txtファイル名
+querytxt = "ピックアップ" + " " + day#txtファイル名
+#querytxt = "ピックアップ" + " " + str(sys.argv[1]) #txtファイル名
 
 url1 = 'https://cookpad.com/'
-nextlink.extend(["pickup_recipes?date=" + sys.argv[1].zfill(4)])
+#nextlink.extend(["pickup_recipes?date=" + sys.argv[1].zfill(4)])
+nextlink.extend(["pickup_recipes?date=" + day.zfill(4)])
 for i in range(1):
     url = url1 + nextlink[i]
     print("Date = " + str(i+1))
@@ -108,4 +105,3 @@ file_object= codecs.open(folder + filename, "wb", "sjis", "ignore")
 file_object.write(str(maintexts) + "\n")
 file_object.close()
 """
-
