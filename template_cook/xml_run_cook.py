@@ -2,7 +2,10 @@ import convXML as MakeLine
 import cookpad_date
 
 c = cookpad_date.html()
-print(c)
+#c = ["タイトル", "要約", "材料", "手順(作り方)" ,"アドバイス", "歴史"]
+for i in c[3]:
+    print("手順"+i)
+
 
 # 出力ファイルパス
 OUTPUT_FILE_PATH = "./volume_test.xml"

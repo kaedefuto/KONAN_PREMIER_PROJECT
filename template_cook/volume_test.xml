@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manzai>
+	<meta content="HeadlineNews"/>
+	<script>
+		<command>
+			<position target="mary">audience</position>
+			<face target="mary">neutral</face>
+			<position target="bob">audience</position>
+			<face target="bob">neutral</face>
+		</command>
+		<command>
+			<line target="mary">どーも、あいちゃんです</line>
+			<balloon target="mary">どーも、あいちゃんです</balloon>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="bob">どーも、ゴンタです</line>
+			<balloon target="bob">どーも、ゴン太です</balloon>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="bob" volume="20%">こっそり喋ります</line>
+			<balloon target="bob">こっそり喋ります(20%)</balloon>
+			<position target="bob">little_l</position>
+		</command>
+		<command>
+			<line target="bob" volume="0%">ああああああ</line>
+			<balloon target="bob">無音にもできます(0%)</balloon>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line pitch="150%" target="mary">ピッチを高くしています</line>
+			<balloon target="mary">ピッチを高くしています(150%)</balloon>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line speed="150%" target="bob">超早口で喋ってもええんやないやろか</line>
+			<balloon target="bob">超早口で喋ってもええんやないやろか(150%)</balloon>
+			<position target="bob">little_r</position>
+		</command>
+		<command>
+			<line speed="20%" target="mary">だめ</line>
+			<balloon target="mary">だめ(20%)</balloon>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line pitch="130%" speed="130%" target="bob" volume="80%">ピッチを高く，スピードを早く，ボリュームを控えめに喋っています</line>
+			<balloon target="bob">ピッチを高く(130%)，スピードを早く(130%)，ボリュームを控えめ(80%)に喋っています</balloon>
+			<position target="bob">audience</position>
+		</command>
+	</script>
+</manzai>
