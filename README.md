@@ -1,7 +1,11 @@
 # KONAN_PREMIER_PROJECT
-漫才台本自動生成用プログラム  
 
-## テンプレート
+2021年度ハッカソン用
+チャットアプリケーション生成プログラム
+
+##漫才台本自動生成用プログラム  
+
+## template
 xml_run.py  
 - 漫才台本を作成するプログラム  
 
@@ -14,7 +18,7 @@ convXML.py　　
 python xml_run.py
 ```
 
-## 参考記事 
+## 参考記事
 
 word2vec  
 https://qiita.com/kenta1984/items/93b64768494f971edf86
