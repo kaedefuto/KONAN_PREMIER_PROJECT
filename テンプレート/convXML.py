@@ -3,9 +3,11 @@
 2021年度ハッカソン用
 チャットアプリケーション生成プログラム
 """
+import queue
 import csv
 import os
 import xml.etree.ElementTree as ET
+from xml.dom import minidom
 import re
 import random
 from logging import getLogger
@@ -23,6 +25,10 @@ Init = {
 Shake = ["little_l", "little_r"]
 Audience = "audience"
 Pose = {}
+
+
+def Fairing(rootN):
+    return minidom.parseString(ET.tostring(rootN, 'utf-8')).toprettyxml(indent="\t", newl="\n", encoding="UTF-8")
 
 
 def Make(target, args={}, attrs={}, Reset=[]):
@@ -295,3 +301,38 @@ def splitXml(file_pass):
     except:
         print("--sound warning--")
         pass
+
+
+ret = []
+
+
+def init():
+    # 初期化
+    global ret
+    ret = []
+    Reset()
+    ret.append(Refresh())
+
+
+def make(name, line, command={}):
+    # 台本行追加
+    global ret
+    ret.append(Make(name, line, command))
+
+
+def makeScript(OUTPUT_FILE_PATH: str):
+    # 台本生成
+    global ret
+    rootN = ET.Element("manzai")
+    metaD = ET.SubElement(rootN, "meta")
+    metaD.set("content", "HeadlineNews")
+    script = ET.SubElement(rootN, "script")
+    Q = queue.Queue()
+    # PlaceManzai.make(logger,Q,Pref,City)
+    # ret = MakeLine.ret  # 台本
+    [Q.put(E) for E in ret]
+    while not Q.empty():
+        script.append(Q.get())
+    R = Fairing(rootN)
+    with open(OUTPUT_FILE_PATH, "wb" if isinstance(R, bytes) else "w") as f:
+        f.write(R)
