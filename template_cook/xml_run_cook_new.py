@@ -1,39 +1,31 @@
 import convXML as MakeLine
-import xml.etree.ElementTree as ET
-from xml.dom import minidom
-import queue
+import cookpad_date
+
+c = cookpad_date.html()
+#c = ["タイトル", "要約", "材料", "手順(作り方)" ,"アドバイス", "歴史"]
+print(c[3][1])
+    
 
 
 # 出力ファイルパス
-OUTPUT_FILE_PATH = "./output_test.xml"
-
-
-def ToMinidom(elem):
-    rough_string = ET.tostring(elem, 'utf-8')
-    return minidom.parseString(rough_string)
-
-
-def Fairing(rootN):
-    R = ToMinidom(rootN).toprettyxml(indent="\t", newl="\n", encoding="UTF-8")
-    # R=R.replaceex("?>","?>"+XSL,1)
-    return R
-
-
-ret = []
-
-
-def make(name, line):
-    global ret
-    ret.append(MakeLine.Make(name, line))
+OUTPUT_FILE_PATH = "./volume_test.xml"
 
 
 # 初期化
-MakeLine.Reset()
-ret.append(MakeLine.Refresh())
+MakeLine.init()
+make = MakeLine.make
+
 
 ##########################################
 #               漫才台本部分
 ##########################################
+
+"""
+<基本説明>
+"mary": あいちゃん，"bob": ゴン太
+line: 発話部分(合成音声の仕様により読み間違える場合はひらがな指定をする)
+"ballon": 表示部分
+"""
 
 """
 <基本説明>
@@ -82,14 +74,14 @@ make("mary", {
 })
 
 make("bob", {
-    "line": "**です。",
-    "balloon": "肉じゃが（ソースを入れない和食）です。",
+    "line": c[0]+"です。",
+    "balloon": c[0]+"です。",
     "face": "like"
 })
 
 make("bob", {
-    "line": "**はママのあじー",
-    "balloon": "肉じゃがはママのあじー",
+    "line": c[0]+"はママのあじー",
+    "balloon": c[0]+"はママのあじー",
     "face": "happy"
 })
 
@@ -100,14 +92,14 @@ make("mary", {
 })
 
 make("mary", {
-    "line": "ところで、**ってどうやって作るっけ",
+    "line": "ところで、"+c[0]+"ってどうやって作るっけ",
     "balloon": "ところで、肉じゃがってどうやって作るっけ",
     "face": "shame"
 })
 
 make("bob", {
-    "line": "(**のレシピを途中まで読む)",
-    "balloon": "(肉じゃがのレシピを途中まで読む)",
+    "line": "まず，"+c[3][1]+"",
+    "balloon": "まず，"+c[3][1]+"",
     "face": "idyllic"
 })
 
@@ -194,18 +186,7 @@ make("bob", {
     "face": "happy"
 })
 
-############################
-#       台本生成部分
-############################
-rootN = ET.Element("manzai")
-metaD = ET.SubElement(rootN, "meta")
-metaD.set("content", "HeadlineNews")
-script = ET.SubElement(rootN, "script")
-Q = queue.Queue()
-# PlaceManzai.make(logger,Q,Pref,City)
-[Q.put(E) for E in ret]
-while not Q.empty():
-    script.append(Q.get())
-R = Fairing(rootN)
-with open(OUTPUT_FILE_PATH, "wb" if isinstance(R, bytes) else "w") as f:
-    f.write(R)
+##########################################
+#               漫才台本出力
+##########################################
+MakeLine.makeScript(OUTPUT_FILE_PATH)

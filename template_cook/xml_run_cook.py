@@ -6,6 +6,9 @@ c = cookpad_date.html()
 for i in c[3]:
     print("手順"+i)
 
+print(c[2])
+l= c[2].split(" ")
+print(l)
 
 # 出力ファイルパス
 OUTPUT_FILE_PATH = "./volume_test.xml"

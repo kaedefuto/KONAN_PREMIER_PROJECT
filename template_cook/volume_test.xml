@@ -9,43 +9,153 @@
 			<face target="bob">neutral</face>
 		</command>
 		<command>
-			<line target="mary">どーも、あいちゃんです</line>
-			<balloon target="mary">どーも、あいちゃんです</balloon>
+			<line target="mary">あいちゃんやで</line>
+			<balloon target="mary">あいちゃんやで</balloon>
+			<face target="mary">idyllic</face>
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">どーも、ゴンタです</line>
-			<balloon target="bob">どーも、ゴン太です</balloon>
+			<line target="bob">ゴンザレス。</line>
+			<balloon target="bob">ゴンザレス。</balloon>
+			<face target="bob">haughty</face>
 			<position target="bob">audience</position>
 		</command>
 		<command>
-			<line target="bob" volume="20%">こっそり喋ります</line>
-			<balloon target="bob">こっそり喋ります(20%)</balloon>
-			<position target="bob">little_l</position>
-		</command>
-		<command>
-			<line target="bob" volume="0%">ああああああ</line>
-			<balloon target="bob">無音にもできます(0%)</balloon>
-			<position target="bob">audience</position>
-		</command>
-		<command>
-			<line pitch="150%" target="mary">ピッチを高くしています</line>
-			<balloon target="mary">ピッチを高くしています(150%)</balloon>
+			<line target="mary">ゴン太はすきなわしょくのこんだてってあるか？</line>
+			<balloon target="mary">ゴン太は好きな和食の献立ってあるか？</balloon>
+			<face target="mary">pleasant</face>
 			<position target="mary">little_l</position>
 		</command>
 		<command>
-			<line speed="150%" target="bob">超早口で喋ってもええんやないやろか</line>
-			<balloon target="bob">超早口で喋ってもええんやないやろか(150%)</balloon>
+			<line target="bob">とうぜんながらバッテリーです。あ、わしょくだからなまりちくでんちか。</line>
+			<balloon target="bob">当然ながらバッテリーです。あ、和食だから鉛蓄電池か。</balloon>
+			<face target="bob">sad</face>
 			<position target="bob">little_r</position>
 		</command>
 		<command>
-			<line speed="20%" target="mary">だめ</line>
-			<balloon target="mary">だめ(20%)</balloon>
+			<line target="mary">かなしいロボットのさが、やな。</line>
+			<balloon target="mary">悲しいロボットの性やな。</balloon>
+			<face target="mary">sad</face>
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line pitch="130%" speed="130%" target="bob" volume="80%">ピッチを高く，スピードを早く，ボリュームを控えめに喋っています</line>
-			<balloon target="bob">ピッチを高く(130%)，スピードを早く(130%)，ボリュームを控えめ(80%)に喋っています</balloon>
+			<line target="mary">じゃあ食べてみたいものは？</line>
+			<balloon target="mary">じゃあ食べてみたいものは？</balloon>
+			<face target="mary">sad</face>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line target="bob">市販のスープいらず☆簡単ピリ辛担々鍋です。</line>
+			<balloon target="bob">市販のスープいらず☆簡単ピリ辛担々鍋です。</balloon>
+			<face target="bob">like</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="bob">市販のスープいらず☆簡単ピリ辛担々鍋はママのあじー</line>
+			<balloon target="bob">市販のスープいらず☆簡単ピリ辛担々鍋はママのあじー</balloon>
+			<face target="bob">happy</face>
+			<position target="bob">little_r</position>
+		</command>
+		<command>
+			<line target="mary">おかあさん以外も作るし字余りなんよ。</line>
+			<balloon target="mary">お母さん以外も作るし、字余りなんよ。</balloon>
+			<face target="mary">pity</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="mary">ところで、市販のスープいらず☆簡単ピリ辛担々鍋ってどうやって作るっけ</line>
+			<balloon target="mary">ところで、肉じゃがってどうやって作るっけ</balloon>
+			<face target="mary">shame</face>
+			<position target="mary">little_r</position>
+		</command>
+		<command>
+			<line target="bob">まず，2豚ひき肉の色が変わってきたら刻んだネギを加えて更に炒め、火が通ったら豆板醤をいれて味をなじませた後、お皿に移しておく</line>
+			<balloon target="bob">まず，2豚ひき肉の色が変わってきたら刻んだネギを加えて更に炒め、火が通ったら豆板醤をいれて味をなじませた後、お皿に移しておく</balloon>
+			<face target="bob">idyllic</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">ちょっとまって、情報のソースは</line>
+			<balloon target="mary">ちょっとまって、情報のソースは？</balloon>
+			<face target="mary">disagreeable</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="bob">＋＋ソース</line>
+			<balloon target="bob">どろソース</balloon>
+			<face target="bob">idyllic</face>
+			<position target="bob">little_l</position>
+		</command>
+		<command>
+			<line target="mary">いや、**に普通ソース入れへんやろ。今見ているじょうほうげんを聞いとるねん</line>
+			<balloon target="mary">いや、**に普通ソース入れへんやろ。今見ている情報源を聞いとるねん</balloon>
+			<face target="mary">angry</face>
+			<position target="mary">little_r</position>
+		</command>
+		<command>
+			<line target="bob">オクシリンコス・パピルスに決まっています</line>
+			<balloon target="bob">オクシリンコス・パピルスにきまっています</balloon>
+			<face target="bob">disagreeable</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">こだいエジプトにそんなもんあるわけないやん</line>
+			<balloon target="mary">古代エジプトにそんなもんあるわけないやん</balloon>
+			<face target="mary">disagreeable</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="mary">レシピ、つづき、よめ</line>
+			<balloon target="mary">レシピ、つづき、よめ</balloon>
+			<face target="mary">idyllic</face>
+			<position target="mary">little_r</position>
+		</command>
+		<command>
+			<line target="bob">(**のレシピを2,3行読む)</line>
+			<balloon target="bob">(肉じゃがのレシピを2,3行読む)</balloon>
+			<face target="bob">idyllic</face>
+			<position target="bob">little_l</position>
+		</command>
+		<command>
+			<line target="mary">しゃくを取りすぎるからみじかくできる？</line>
+			<balloon target="mary">尺を取りすぎるから短く出来る？</balloon>
+			<face target="mary">disagreeable</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="bob">(**のレシピのうち材料の名前を単語区切りに読む)</line>
+			<balloon target="bob">(肉じゃがのレシピのうち材料の名前を単語区切りに読む)</balloon>
+			<face target="bob">idyllic</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">しょうりゃくしすぎやろ</line>
+			<balloon target="mary">省略しすぎやろ</balloon>
+			<face target="mary">disagreeable</face>
+			<position target="mary">little_r</position>
+		</command>
+		<command>
+			<line target="bob">それと、とかげのしっぽ、りゅうのなみだ、**</line>
+			<balloon target="bob">それと、とかげのしっぽ、りゅうのなみだ、**</balloon>
+			<face target="bob">idyllic</face>
+			<position target="bob">little_l</position>
+		</command>
+		<command>
+			<line target="mary">**作るのに**いるのかよ、一生できへんやん。</line>
+			<balloon target="mary">**作るのに**いるのかよ、一生できへんやん。</balloon>
+			<face target="mary">relief</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="mary">しかも材料てきにくろまじゅつかよ、なんかもうつかれたわ　どうもありがとうございました。</line>
+			<balloon target="mary">しかも材料的に黒魔術かよ、なんかもうつかれたわ　どうもありがとうございました。</balloon>
+			<face target="mary">relief</face>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line target="bob">どうも、グノーシスしゅぎしゃ、ごんたでした。</line>
+			<balloon target="bob">どうも、グノーシス主義者、ゴン太でした。</balloon>
+			<face target="bob">happy</face>
 			<position target="bob">audience</position>
 		</command>
 	</script>
