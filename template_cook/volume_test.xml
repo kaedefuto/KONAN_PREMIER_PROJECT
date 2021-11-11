@@ -108,7 +108,7 @@
 			<line target="mary">レシピ、つづき、よめ</line>
 			<balloon target="mary">レシピ、つづき、よめ</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="bob">2バターを熱して玉ねぎ、肉、ジャガイモの順加えて炒めていく。</line>
@@ -132,13 +132,13 @@
 			<line target="mary">しゃくを取りすぎるからみじかくできる？</line>
 			<balloon target="mary">尺を取りすぎるから短く出来る？</balloon>
 			<face target="mary">disagreeable</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="bob">  ジャガイモ ２～３個   豚肉 １５０ｇ位   玉ねぎ 中１個位   コーン お好みで適量   コンソメ  小さじ2   水 １と１/２カップ   バター 大さじ２   【Ａ】味噌 大さじ２   【Ａ】砂糖 小さじ２   【Ａ】酒 小さじ２  </line>
 			<balloon target="bob">  ジャガイモ ２～３個   豚肉 １５０ｇ位   玉ねぎ 中１個位   コーン お好みで適量   コンソメ  小さじ2   水 １と１/２カップ   バター 大さじ２   【Ａ】味噌 大さじ２   【Ａ】砂糖 小さじ２   【Ａ】酒 小さじ２  </balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_r</position>
+			<position target="bob">little_l</position>
 		</command>
 		<command>
 			<line target="mary">しょうりゃくしすぎやろ</line>
@@ -168,7 +168,7 @@
 			<line target="bob">どうも、グノーシスしゅぎしゃ、ごんたでした。</line>
 			<balloon target="bob">どうも、グノーシス主義者、ゴン太でした。</balloon>
 			<face target="bob">happy</face>
-			<position target="bob">little_r</position>
+			<position target="bob">little_l</position>
 		</command>
 	</script>
 </manzai>

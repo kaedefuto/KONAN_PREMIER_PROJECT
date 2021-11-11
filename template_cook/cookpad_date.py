@@ -41,13 +41,13 @@ def html(day):
 
     #https://cookpad.com/pickup_recipes?date=1030
     url1 = 'https://cookpad.com/'
+    url2 = 'https://cookpad.com/search/餃子'
     #nextlink.extend(["pickup_recipes?date=" + sys.argv[1].zfill(4)])
     nextlink.extend(["pickup_recipes?date=" + day.zfill(4)])
     for i in range(1):
         url = url1 + nextlink[i]
         #print("Date = " + str(i+1))
         htmlExtraction(url)
-
     cnt = 0
     #本文抽出
     #print(links[0])
