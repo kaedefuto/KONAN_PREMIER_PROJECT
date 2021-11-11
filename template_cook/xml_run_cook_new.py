@@ -1,9 +1,16 @@
 import convXML as MakeLine
 import cookpad_date
 
-c = cookpad_date.html()
+import datetime
+dt_now = datetime.datetime.now()
+day=dt_now.strftime('%m%d')
+
+day_old=str(int(day)-1)
+
+c_new= cookpad_date.html(day)
+c_old= cookpad_date.html(day_old)
 #c = ["タイトル", "要約", "材料", "手順(作り方)" ,"アドバイス", "歴史"]
-print(c[3][1])
+print(c_new[3][0])
     
 
 
@@ -74,14 +81,14 @@ make("mary", {
 })
 
 make("bob", {
-    "line": c[0]+"です。",
-    "balloon": c[0]+"です。",
+    "line": c_new[0]+"です。",
+    "balloon": c_new[0]+"です。",
     "face": "like"
 })
 
 make("bob", {
-    "line": c[0]+"はママのあじー",
-    "balloon": c[0]+"はママのあじー",
+    "line": c_new[0]+"はママのあじー",
+    "balloon": c_new[0]+"はママのあじー",
     "face": "happy"
 })
 
@@ -92,14 +99,14 @@ make("mary", {
 })
 
 make("mary", {
-    "line": "ところで、"+c[0]+"ってどうやって作るっけ",
-    "balloon": "ところで、肉じゃがってどうやって作るっけ",
+    "line": "ところで、"+c_new[0]+"ってどうやって作るっけ",
+    "balloon": "ところで、"+c_new[0]+"ってどうやって作るっけ",
     "face": "shame"
 })
 
 make("bob", {
-    "line": "まず，"+c[3][1]+"",
-    "balloon": "まず，"+c[3][1]+"",
+    "line": "まず，"+c_new[3][0]+"",
+    "balloon": "まず，"+c_new[3][0]+"",
     "face": "idyllic"
 })
 
@@ -140,8 +147,20 @@ make("mary", {
 })
 
 make("bob", {
-    "line": "(**のレシピを2,3行読む)",
-    "balloon": "(肉じゃがのレシピを2,3行読む)",
+    "line": ""+c_new[3][1]+"",
+    "balloon": ""+c_new[3][1]+"",
+    "face": "idyllic"
+})
+
+make("mary", {
+    "line": "ふむふむ",
+    "balloon": "ふむふむ",
+    "face": "idyllic"
+})
+
+make("bob", {
+    "line": ""+c_new[3][2]+"",
+    "balloon": ""+c_new[3][2]+"",
     "face": "idyllic"
 })
 
@@ -151,9 +170,10 @@ make("mary", {
     "face": "disagreeable"
 })
 
+#(肉じゃがのレシピのうち材料の名前を単語区切りに読む)
 make("bob", {
-    "line": "(**のレシピのうち材料の名前を単語区切りに読む)",
-    "balloon": "(肉じゃがのレシピのうち材料の名前を単語区切りに読む)",
+    "line": ""+c_new[2]+"",
+    "balloon": ""+c_new[2]+"",
     "face": "idyllic"
 })
 

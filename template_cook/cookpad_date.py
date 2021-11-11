@@ -11,9 +11,9 @@ import pandas as pd
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
-import datetime
-dt_now = datetime.datetime.now()
-day=dt_now.strftime('%m%d')
+#import datetime
+#dt_now = datetime.datetime.now()
+#day=dt_now.strftime('%m%d')
 
 
 links = [] #ページにあるリンク10個*5ページを格納する
@@ -35,7 +35,7 @@ def htmlExtraction(url):
             import traceback
             traceback.print_exc()
 
-def html():
+def html(day):
     querytxt = "ピックアップ" + " " + day#txtファイル名
     #querytxt = "ピックアップ" + " " + str(sys.argv[1]) #txtファイル名
 
