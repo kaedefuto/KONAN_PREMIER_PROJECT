@@ -24,13 +24,13 @@
 			<line target="mary">ゴン太はすきなわしょくのこんだてってあるか？</line>
 			<balloon target="mary">ゴン太は好きな和食の献立ってあるか？</balloon>
 			<face target="mary">pleasant</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="bob">とうぜんながらバッテリーです。あ、わしょくだからなまりちくでんちか。</line>
 			<balloon target="bob">当然ながらバッテリーです。あ、和食だから鉛蓄電池か。</balloon>
 			<face target="bob">sad</face>
-			<position target="bob">little_r</position>
+			<position target="bob">little_l</position>
 		</command>
 		<command>
 			<line target="mary">かなしいロボットのさが、やな。</line>
@@ -42,19 +42,19 @@
 			<line target="mary">じゃあ食べてみたいものは？</line>
 			<balloon target="mary">じゃあ食べてみたいものは？</balloon>
 			<face target="mary">sad</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
-			<line target="bob">味噌バターコーン肉じゃがです。</line>
-			<balloon target="bob">味噌バターコーン肉じゃがです。</balloon>
+			<line target="bob">野菜たっぷり♪ご飯がすすむ八宝菜です。</line>
+			<balloon target="bob">野菜たっぷり♪ご飯がすすむ八宝菜です。</balloon>
 			<face target="bob">like</face>
 			<position target="bob">audience</position>
 		</command>
 		<command>
-			<line target="bob">味噌バターコーン肉じゃがはママのあじー</line>
-			<balloon target="bob">味噌バターコーン肉じゃがはママのあじー</balloon>
+			<line target="bob">野菜たっぷり♪ご飯がすすむ八宝菜はママのあじー</line>
+			<balloon target="bob">野菜たっぷり♪ご飯がすすむ八宝菜はママのあじー</balloon>
 			<face target="bob">happy</face>
-			<position target="bob">little_l</position>
+			<position target="bob">little_r</position>
 		</command>
 		<command>
 			<line target="mary">おかあさん以外も作るし字余りなんよ。</line>
@@ -63,14 +63,14 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="mary">ところで、味噌バターコーン肉じゃがってどうやって作るっけ</line>
-			<balloon target="mary">ところで、味噌バターコーン肉じゃがってどうやって作るっけ</balloon>
+			<line target="mary">ところで、野菜たっぷり♪ご飯がすすむ八宝菜ってどうやって作るっけ</line>
+			<balloon target="mary">ところで、野菜たっぷり♪ご飯がすすむ八宝菜ってどうやって作るっけ</balloon>
 			<face target="mary">shame</face>
 			<position target="mary">little_l</position>
 		</command>
 		<command>
-			<line target="bob">まず，1玉ねぎ・ジャガイモ・肉を適当な大きさに切る。</line>
-			<balloon target="bob">まず，1玉ねぎ・ジャガイモ・肉を適当な大きさに切る。</balloon>
+			<line target="bob">まず，1豚肉は3センチ幅、白菜はざく切り、にんじんは短冊切り、しいたけは薄切り、長ねぎは斜め切り、ピーマンは縦に細切りにする。</line>
+			<balloon target="bob">まず，1豚肉は3センチ幅、白菜はざく切り、にんじんは短冊切り、しいたけは薄切り、長ねぎは斜め切り、ピーマンは縦に細切りにする。</balloon>
 			<face target="bob">idyllic</face>
 			<position target="bob">audience</position>
 		</command>
@@ -90,7 +90,7 @@
 			<line target="mary">いや、**に普通ソース入れへんやろ。今見ているじょうほうげんを聞いとるねん</line>
 			<balloon target="mary">いや、**に普通ソース入れへんやろ。今見ている情報源を聞いとるねん</balloon>
 			<face target="mary">angry</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
 			<line target="bob">オクシリンコス・パピルスに決まっています</line>
@@ -108,13 +108,13 @@
 			<line target="mary">レシピ、つづき、よめ</line>
 			<balloon target="mary">レシピ、つづき、よめ</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
-			<line target="bob">2バターを熱して玉ねぎ、肉、ジャガイモの順加えて炒めていく。</line>
-			<balloon target="bob">2バターを熱して玉ねぎ、肉、ジャガイモの順加えて炒めていく。</balloon>
+			<line target="bob">2フライパンにごま油入れて中火で熱し、豚肉を炒める。豚肉の色がかわったら、野菜を加えて、炒め合わせる。</line>
+			<balloon target="bob">2フライパンにごま油入れて中火で熱し、豚肉を炒める。豚肉の色がかわったら、野菜を加えて、炒め合わせる。</balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_l</position>
+			<position target="bob">little_r</position>
 		</command>
 		<command>
 			<line target="mary">ふむふむ</line>
@@ -123,8 +123,8 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">3バターがなじんだら水を加えてコンソメを加え強火で煮る。</line>
-			<balloon target="bob">3バターがなじんだら水を加えてコンソメを加え強火で煮る。</balloon>
+			<line target="bob">3野菜に火が通ったら、うずらの卵(水煮)を加える。</line>
+			<balloon target="bob">3野菜に火が通ったら、うずらの卵(水煮)を加える。</balloon>
 			<face target="bob">idyllic</face>
 			<position target="bob">audience</position>
 		</command>
@@ -132,13 +132,13 @@
 			<line target="mary">しゃくを取りすぎるからみじかくできる？</line>
 			<balloon target="mary">尺を取りすぎるから短く出来る？</balloon>
 			<face target="mary">disagreeable</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
-			<line target="bob">  ジャガイモ ２～３個   豚肉 １５０ｇ位   玉ねぎ 中１個位   コーン お好みで適量   コンソメ  小さじ2   水 １と１/２カップ   バター 大さじ２   【Ａ】味噌 大さじ２   【Ａ】砂糖 小さじ２   【Ａ】酒 小さじ２  </line>
-			<balloon target="bob">  ジャガイモ ２～３個   豚肉 １５０ｇ位   玉ねぎ 中１個位   コーン お好みで適量   コンソメ  小さじ2   水 １と１/２カップ   バター 大さじ２   【Ａ】味噌 大さじ２   【Ａ】砂糖 小さじ２   【Ａ】酒 小さじ２  </balloon>
+			<line target="bob">  豚ばら肉 200g   白菜 1/4個   にんじん 1/3本   しいたけ 3枚   長ねぎ 1/3本   ピーマン 1個   うずらの卵 5個   ごま油  大さじ1    ■ 【合わせ調味料】    水 400ml   ○醤油 大さじ2   ○酒 大さじ2   ○砂糖 小さじ1   ○オイスターソース  大さじ1   ○酢 大さじ1   ○鶏ガラスープの素 大さじ1    ■ 【水溶き片栗粉】    片栗粉  大さじ2   水 大さじ2    ■ 【仕上げ】    ごま油  小さじ1  </line>
+			<balloon target="bob">  豚ばら肉 200g   白菜 1/4個   にんじん 1/3本   しいたけ 3枚   長ねぎ 1/3本   ピーマン 1個   うずらの卵 5個   ごま油  大さじ1    ■ 【合わせ調味料】    水 400ml   ○醤油 大さじ2   ○酒 大さじ2   ○砂糖 小さじ1   ○オイスターソース  大さじ1   ○酢 大さじ1   ○鶏ガラスープの素 大さじ1    ■ 【水溶き片栗粉】    片栗粉  大さじ2   水 大さじ2    ■ 【仕上げ】    ごま油  小さじ1  </balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_l</position>
+			<position target="bob">little_r</position>
 		</command>
 		<command>
 			<line target="mary">しょうりゃくしすぎやろ</line>
@@ -156,7 +156,7 @@
 			<line target="mary">**作るのに**いるのかよ、一生できへんやん。</line>
 			<balloon target="mary">**作るのに**いるのかよ、一生できへんやん。</balloon>
 			<face target="mary">relief</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
 			<line target="mary">しかも材料てきにくろまじゅつかよ、なんかもうつかれたわ　どうもありがとうございました。</line>

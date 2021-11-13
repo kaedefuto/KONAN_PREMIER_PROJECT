@@ -1,5 +1,8 @@
 import convXML as MakeLine
 import cookpad_date
+import boke.Roberta
+
+
 
 import datetime
 dt_now = datetime.datetime.now()
@@ -9,9 +12,13 @@ day_old=str(int(day)-1)
 
 c_new= cookpad_date.html(day)
 c_old= cookpad_date.html(day_old)
+c_word = cookpad_date.html_word("餃子")
+c_word2 = cookpad_date.html_word("天津飯")
+print(c_word)
+print(c_word2)
 #c = ["タイトル", "要約", "材料", "手順(作り方)" ,"アドバイス", "歴史"]
-print(c_new[3][0])
-    
+#print(c_new[3][0])
+
 
 
 # 出力ファイルパス
