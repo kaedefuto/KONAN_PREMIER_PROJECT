@@ -13,9 +13,10 @@ day_old=str(int(day)-1)
 c_new= cookpad_date.html(day)
 c_old= cookpad_date.html(day_old)
 c_word = cookpad_date.html_word("餃子")
-c_word2 = cookpad_date.html_word("天津飯")
-print(c_word)
-print(c_word2)
+#c_word2 = cookpad_date.html_word("天津飯")
+print(c_word[2].replace("   ","，"))
+
+#print(c_word2)
 #c = ["タイトル", "要約", "材料", "手順(作り方)" ,"アドバイス", "歴史"]
 #print(c_new[3][0])
 
@@ -51,6 +52,8 @@ title:
 # 補足:  ** ++に単語を入れるようなフレームワークです。また、レシピのapiがあればいい感じになります。
 
 """
+#-------------------------------------------
+#はじめ
 make("mary", {
     "line": "あいちゃんやで",
     "balloon": "あいちゃんやで",
@@ -104,11 +107,84 @@ make("mary", {
     "balloon": "お母さん以外も作るし、字余りなんよ。",
     "face": "pity"
 })
-
+#---------------------------------------------------------------
+#中
 make("mary", {
     "line": "ところで、"+c_new[0]+"ってどうやって作るっけ",
     "balloon": "ところで、"+c_new[0]+"ってどうやって作るっけ",
     "face": "shame"
+})
+
+make(
+    "bob", {
+        "line": "楽勝や，人工知能で調べたるわ",
+        "balloon": "楽勝や，人工知能で調べたるわ",
+        "face": "idyllic"
+    })
+
+make("mary", {
+    "line": "さすがゴンザレス",
+    "balloon": "さすがゴンザレス",
+    "face": "shame"
+})
+
+make("bob", {
+    "line": "料理名は"+c_word[0]+"だよ",
+    "balloon": "料理名は"+c_word[0]+"だよ",
+    "face": "idyllic"
+})
+
+make(
+    "bob", {
+        "line": "材料は"+c_word[2].replace("   ","，")+"です",
+        "balloon": "材料は"+c_word[2].replace("   ","，")+"です",
+        "face": "idyllic"
+})
+
+
+z=c_word[2].replace("   ", "，").split("，")
+
+make("bob", {
+    "line": "えーと，まず，"+z[0]+"を作ります",
+    "balloon": "えーと，まず，"+z[0]+"を作ります",
+    "face": "idyllic"
+})
+
+make("mary", {
+    "line": "ちょっと待て，どんだけかかるねん",
+    "balloon": "ちょっと待て，どんだけかかるねん",
+    "face": "idyllic"
+})
+
+make("bob", {
+    "line": "5年くらいかかりますわ",
+    "balloon": "5年くらいかかりますわ",
+    "face": "idyllic"
+})
+
+make("mary", {
+    "line": "生産者になりたいわけじゃないねん",
+    "balloon": "生産者になりたいわけじゃないねん",
+    "face": "idyllic"
+})
+
+make("mary", {
+    "line": "料理の手順を教えてくれよ",
+    "balloon": "料理の手順を教えてくれよ",
+    "face": "idyllic"
+})
+
+make("bob", {
+    "line": "まず，"+c_new[3][0]+"",
+    "balloon": "まず，"+c_new[3][0]+"",
+    "face": "idyllic"
+})
+
+
+make("mary", {
+    "line": "ちょっとまって、情報のソースは",
+    "balloon": "ちょっとまって、情報のソースは？",
+    "face": "disagreeable"
 })
 
 make("bob", {
@@ -124,14 +200,14 @@ make("mary", {
 })
 
 make("bob", {
-    "line": "＋＋ソース",
-    "balloon": "どろソース",
+    "line": "Yahoo!ニュースのソース",
+    "balloon": "Yahoo!ニュースのソース",
     "face": "idyllic"
 })
 
 make("mary", {
-    "line": "いや、**に普通ソース入れへんやろ。今見ているじょうほうげんを聞いとるねん",
-    "balloon": "いや、**に普通ソース入れへんやろ。今見ている情報源を聞いとるねん",
+    "line": "いや、**にニュースのソース入れへんやろ。今見ているじょうほうげんを聞いとるねん",
+    "balloon": "いや、**にニュースのソース入れへんやろ。今見ている情報源を聞いとるねん",
     "face": "angry"
 })
 
@@ -170,14 +246,14 @@ make("bob", {
     "balloon": ""+c_new[3][2]+"",
     "face": "idyllic"
 })
-
+#-------------------------------------------------------------
+#オチ
 make("mary", {
     "line": "しゃくを取りすぎるからみじかくできる？",
     "balloon": "尺を取りすぎるから短く出来る？",
     "face": "disagreeable"
 })
-
-#(肉じゃがのレシピのうち材料の名前を単語区切りに読む)
+#(レシピのうち材料の名前を単語区切りに読む)
 make("bob", {
     "line": ""+c_new[2]+"",
     "balloon": ""+c_new[2]+"",

@@ -24,7 +24,7 @@
 			<line target="mary">ゴン太はすきなわしょくのこんだてってあるか？</line>
 			<balloon target="mary">ゴン太は好きな和食の献立ってあるか？</balloon>
 			<face target="mary">pleasant</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
 			<line target="bob">とうぜんながらバッテリーです。あ、わしょくだからなまりちくでんちか。</line>
@@ -45,14 +45,14 @@
 			<position target="mary">little_l</position>
 		</command>
 		<command>
-			<line target="bob">野菜たっぷり♪ご飯がすすむ八宝菜です。</line>
-			<balloon target="bob">野菜たっぷり♪ご飯がすすむ八宝菜です。</balloon>
+			<line target="bob">鶏肉とネギの豆腐クリームグラタン♡です。</line>
+			<balloon target="bob">鶏肉とネギの豆腐クリームグラタン♡です。</balloon>
 			<face target="bob">like</face>
 			<position target="bob">audience</position>
 		</command>
 		<command>
-			<line target="bob">野菜たっぷり♪ご飯がすすむ八宝菜はママのあじー</line>
-			<balloon target="bob">野菜たっぷり♪ご飯がすすむ八宝菜はママのあじー</balloon>
+			<line target="bob">鶏肉とネギの豆腐クリームグラタン♡はママのあじー</line>
+			<balloon target="bob">鶏肉とネギの豆腐クリームグラタン♡はママのあじー</balloon>
 			<face target="bob">happy</face>
 			<position target="bob">little_r</position>
 		</command>
@@ -63,14 +63,50 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="mary">ところで、野菜たっぷり♪ご飯がすすむ八宝菜ってどうやって作るっけ</line>
-			<balloon target="mary">ところで、野菜たっぷり♪ご飯がすすむ八宝菜ってどうやって作るっけ</balloon>
+			<line target="mary">ところで、鶏肉とネギの豆腐クリームグラタン♡ってどうやって作るっけ</line>
+			<balloon target="mary">ところで、鶏肉とネギの豆腐クリームグラタン♡ってどうやって作るっけ</balloon>
 			<face target="mary">shame</face>
+			<position target="mary">little_r</position>
+		</command>
+		<command>
+			<line target="bob">楽勝や，人工知能で調べたるわ</line>
+			<balloon target="bob">楽勝や，人工知能で調べたるわ</balloon>
+			<face target="bob">idyllic</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">さすがゴンザレス</line>
+			<balloon target="mary">さすがゴンザレス</balloon>
+			<face target="mary">shame</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="bob">材料は  ギョウザの付属タレ １袋，万能ネギ塩だれ 大さじ１，鶏ガラスープの素 小さじ１，水 800～1000ml，ざく切り白菜 １袋(230g)，もやし １袋，市販のギョウザ １袋(12個入り)，塩こしょう 適量，濃口醤油  小さじ２，ゴマ油  大さじ１  です</line>
+			<balloon target="bob">材料は  ギョウザの付属タレ １袋，万能ネギ塩だれ 大さじ１，鶏ガラスープの素 小さじ１，水 800～1000ml，ざく切り白菜 １袋(230g)，もやし １袋，市販のギョウザ １袋(12個入り)，塩こしょう 適量，濃口醤油  小さじ２，ゴマ油  大さじ１  です</balloon>
+			<face target="bob">idyllic</face>
+			<position target="bob">little_l</position>
+		</command>
+		<command>
+			<line target="bob">まず，1＊豆腐クリームベシャメルソース豆腐をつぶしてなめらかにします。♡の調味料を入れて混ぜてソースの完成*\(^o^)/*</line>
+			<balloon target="bob">まず，1＊豆腐クリームベシャメルソース豆腐をつぶしてなめらかにします。♡の調味料を入れて混ぜてソースの完成*\(^o^)/*</balloon>
+			<face target="bob">idyllic</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="bob">えーと，まず，  ギョウザの付属タレ １袋</line>
+			<balloon target="bob">えーと，まず，  ギョウザの付属タレ １袋</balloon>
+			<face target="bob">idyllic</face>
+			<position target="bob">little_r</position>
+		</command>
+		<command>
+			<line target="mary">ちょっとまって、情報のソースは</line>
+			<balloon target="mary">ちょっとまって、情報のソースは？</balloon>
+			<face target="mary">disagreeable</face>
 			<position target="mary">little_l</position>
 		</command>
 		<command>
-			<line target="bob">まず，1豚肉は3センチ幅、白菜はざく切り、にんじんは短冊切り、しいたけは薄切り、長ねぎは斜め切り、ピーマンは縦に細切りにする。</line>
-			<balloon target="bob">まず，1豚肉は3センチ幅、白菜はざく切り、にんじんは短冊切り、しいたけは薄切り、長ねぎは斜め切り、ピーマンは縦に細切りにする。</balloon>
+			<line target="bob">まず，1＊豆腐クリームベシャメルソース豆腐をつぶしてなめらかにします。♡の調味料を入れて混ぜてソースの完成*\(^o^)/*</line>
+			<balloon target="bob">まず，1＊豆腐クリームベシャメルソース豆腐をつぶしてなめらかにします。♡の調味料を入れて混ぜてソースの完成*\(^o^)/*</balloon>
 			<face target="bob">idyllic</face>
 			<position target="bob">audience</position>
 		</command>
@@ -90,7 +126,7 @@
 			<line target="mary">いや、**に普通ソース入れへんやろ。今見ているじょうほうげんを聞いとるねん</line>
 			<balloon target="mary">いや、**に普通ソース入れへんやろ。今見ている情報源を聞いとるねん</balloon>
 			<face target="mary">angry</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="bob">オクシリンコス・パピルスに決まっています</line>
@@ -108,11 +144,11 @@
 			<line target="mary">レシピ、つづき、よめ</line>
 			<balloon target="mary">レシピ、つづき、よめ</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
-			<line target="bob">2フライパンにごま油入れて中火で熱し、豚肉を炒める。豚肉の色がかわったら、野菜を加えて、炒め合わせる。</line>
-			<balloon target="bob">2フライパンにごま油入れて中火で熱し、豚肉を炒める。豚肉の色がかわったら、野菜を加えて、炒め合わせる。</balloon>
+			<line target="bob">2フライパンに油を注ぎ、鶏肉とネギを炒めます！火が通ったら、作った豆腐クリームソースを入れます！とろけるチーズもいれます。</line>
+			<balloon target="bob">2フライパンに油を注ぎ、鶏肉とネギを炒めます！火が通ったら、作った豆腐クリームソースを入れます！とろけるチーズもいれます。</balloon>
 			<face target="bob">idyllic</face>
 			<position target="bob">little_r</position>
 		</command>
@@ -123,8 +159,8 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">3野菜に火が通ったら、うずらの卵(水煮)を加える。</line>
-			<balloon target="bob">3野菜に火が通ったら、うずらの卵(水煮)を加える。</balloon>
+			<line target="bob">3200度のオーブンで予熱します！あらかじめしておいてもいいと思います^ ^</line>
+			<balloon target="bob">3200度のオーブンで予熱します！あらかじめしておいてもいいと思います^ ^</balloon>
 			<face target="bob">idyllic</face>
 			<position target="bob">audience</position>
 		</command>
@@ -132,13 +168,13 @@
 			<line target="mary">しゃくを取りすぎるからみじかくできる？</line>
 			<balloon target="mary">尺を取りすぎるから短く出来る？</balloon>
 			<face target="mary">disagreeable</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
-			<line target="bob">  豚ばら肉 200g   白菜 1/4個   にんじん 1/3本   しいたけ 3枚   長ねぎ 1/3本   ピーマン 1個   うずらの卵 5個   ごま油  大さじ1    ■ 【合わせ調味料】    水 400ml   ○醤油 大さじ2   ○酒 大さじ2   ○砂糖 小さじ1   ○オイスターソース  大さじ1   ○酢 大さじ1   ○鶏ガラスープの素 大さじ1    ■ 【水溶き片栗粉】    片栗粉  大さじ2   水 大さじ2    ■ 【仕上げ】    ごま油  小さじ1  </line>
-			<balloon target="bob">  豚ばら肉 200g   白菜 1/4個   にんじん 1/3本   しいたけ 3枚   長ねぎ 1/3本   ピーマン 1個   うずらの卵 5個   ごま油  大さじ1    ■ 【合わせ調味料】    水 400ml   ○醤油 大さじ2   ○酒 大さじ2   ○砂糖 小さじ1   ○オイスターソース  大さじ1   ○酢 大さじ1   ○鶏ガラスープの素 大さじ1    ■ 【水溶き片栗粉】    片栗粉  大さじ2   水 大さじ2    ■ 【仕上げ】    ごま油  小さじ1  </balloon>
+			<line target="bob">  鶏肉 胸肉でももも肉でも◎ 200g   ネギ 1本    ■ ＊豆腐クリームベシャメルソース＊    豆腐 1丁   ♡牛乳 又は 豆乳 大さじ3   ♡コンソメ 大さじ1   ♡味噌 大さじ1   ♡塩コショウ 適量   とろけるチーズ 大さじ3    ■ ＊トッピング用    とろけるチーズ 適量 多めが美味しい  </line>
+			<balloon target="bob">  鶏肉 胸肉でももも肉でも◎ 200g   ネギ 1本    ■ ＊豆腐クリームベシャメルソース＊    豆腐 1丁   ♡牛乳 又は 豆乳 大さじ3   ♡コンソメ 大さじ1   ♡味噌 大さじ1   ♡塩コショウ 適量   とろけるチーズ 大さじ3    ■ ＊トッピング用    とろけるチーズ 適量 多めが美味しい  </balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_r</position>
+			<position target="bob">little_l</position>
 		</command>
 		<command>
 			<line target="mary">しょうりゃくしすぎやろ</line>
@@ -168,7 +204,7 @@
 			<line target="bob">どうも、グノーシスしゅぎしゃ、ごんたでした。</line>
 			<balloon target="bob">どうも、グノーシス主義者、ゴン太でした。</balloon>
 			<face target="bob">happy</face>
-			<position target="bob">little_l</position>
+			<position target="bob">little_r</position>
 		</command>
 	</script>
 </manzai>
