@@ -81,34 +81,52 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">材料は  ギョウザの付属タレ １袋，万能ネギ塩だれ 大さじ１，鶏ガラスープの素 小さじ１，水 800～1000ml，ざく切り白菜 １袋(230g)，もやし １袋，市販のギョウザ １袋(12個入り)，塩こしょう 適量，濃口醤油  小さじ２，ゴマ油  大さじ１  です</line>
-			<balloon target="bob">材料は  ギョウザの付属タレ １袋，万能ネギ塩だれ 大さじ１，鶏ガラスープの素 小さじ１，水 800～1000ml，ざく切り白菜 １袋(230g)，もやし １袋，市販のギョウザ １袋(12個入り)，塩こしょう 適量，濃口醤油  小さじ２，ゴマ油  大さじ１  です</balloon>
-			<face target="bob">idyllic</face>
-			<position target="bob">little_l</position>
-		</command>
-		<command>
-			<line target="bob">まず，1＊豆腐クリームベシャメルソース豆腐をつぶしてなめらかにします。♡の調味料を入れて混ぜてソースの完成*\(^o^)/*</line>
-			<balloon target="bob">まず，1＊豆腐クリームベシャメルソース豆腐をつぶしてなめらかにします。♡の調味料を入れて混ぜてソースの完成*\(^o^)/*</balloon>
-			<face target="bob">idyllic</face>
-			<position target="bob">audience</position>
-		</command>
-		<command>
-			<line target="bob">えーと，まず，  ギョウザの付属タレ １袋</line>
-			<balloon target="bob">えーと，まず，  ギョウザの付属タレ １袋</balloon>
+			<line target="bob">料理名は白菜ともやしのギョウザスープだよ</line>
+			<balloon target="bob">料理名は白菜ともやしのギョウザスープだよ</balloon>
 			<face target="bob">idyllic</face>
 			<position target="bob">little_r</position>
 		</command>
 		<command>
-			<line target="mary">ちょっとまって、情報のソースは</line>
-			<balloon target="mary">ちょっとまって、情報のソースは？</balloon>
-			<face target="mary">disagreeable</face>
+			<line target="bob">材料は  ギョウザの付属タレ １袋，万能ネギ塩だれ 大さじ１，鶏ガラスープの素 小さじ１，水 800～1000ml，ざく切り白菜 １袋(230g)，もやし １袋，市販のギョウザ １袋(12個入り)，塩こしょう 適量，濃口醤油  小さじ２，ゴマ油  大さじ１  です</line>
+			<balloon target="bob">材料は  ギョウザの付属タレ １袋，万能ネギ塩だれ 大さじ１，鶏ガラスープの素 小さじ１，水 800～1000ml，ざく切り白菜 １袋(230g)，もやし １袋，市販のギョウザ １袋(12個入り)，塩こしょう 適量，濃口醤油  小さじ２，ゴマ油  大さじ１  です</balloon>
+			<face target="bob">idyllic</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="bob">えーと，まず，  ギョウザの付属タレ １袋を作ります</line>
+			<balloon target="bob">えーと，まず，  ギョウザの付属タレ １袋を作ります</balloon>
+			<face target="bob">idyllic</face>
+			<position target="bob">little_r</position>
+		</command>
+		<command>
+			<line target="mary">ちょっと待て，どんだけかかるねん</line>
+			<balloon target="mary">ちょっと待て，どんだけかかるねん</balloon>
+			<face target="mary">idyllic</face>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line target="bob">5年くらいかかりますわ</line>
+			<balloon target="bob">5年くらいかかりますわ</balloon>
+			<face target="bob">idyllic</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">生産者になりたいわけじゃないねん</line>
+			<balloon target="mary">生産者になりたいわけじゃないねん</balloon>
+			<face target="mary">idyllic</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="mary">料理の手順を教えてくれよ</line>
+			<balloon target="mary">料理の手順を教えてくれよ</balloon>
+			<face target="mary">idyllic</face>
 			<position target="mary">little_l</position>
 		</command>
 		<command>
 			<line target="bob">まず，1＊豆腐クリームベシャメルソース豆腐をつぶしてなめらかにします。♡の調味料を入れて混ぜてソースの完成*\(^o^)/*</line>
 			<balloon target="bob">まず，1＊豆腐クリームベシャメルソース豆腐をつぶしてなめらかにします。♡の調味料を入れて混ぜてソースの完成*\(^o^)/*</balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">audience</position>
+			<position target="bob">little_r</position>
 		</command>
 		<command>
 			<line target="mary">ちょっとまって、情報のソースは</line>
@@ -117,16 +135,28 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">＋＋ソース</line>
-			<balloon target="bob">どろソース</balloon>
+			<line target="bob">まず，1＊豆腐クリームベシャメルソース豆腐をつぶしてなめらかにします。♡の調味料を入れて混ぜてソースの完成*\(^o^)/*</line>
+			<balloon target="bob">まず，1＊豆腐クリームベシャメルソース豆腐をつぶしてなめらかにします。♡の調味料を入れて混ぜてソースの完成*\(^o^)/*</balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_l</position>
+			<position target="bob">audience</position>
 		</command>
 		<command>
-			<line target="mary">いや、**に普通ソース入れへんやろ。今見ているじょうほうげんを聞いとるねん</line>
-			<balloon target="mary">いや、**に普通ソース入れへんやろ。今見ている情報源を聞いとるねん</balloon>
-			<face target="mary">angry</face>
+			<line target="mary">ちょっとまって、情報のソースは</line>
+			<balloon target="mary">ちょっとまって、情報のソースは？</balloon>
+			<face target="mary">disagreeable</face>
 			<position target="mary">little_r</position>
+		</command>
+		<command>
+			<line target="bob">Yahoo!ニュースのソース</line>
+			<balloon target="bob">Yahoo!ニュースのソース</balloon>
+			<face target="bob">idyllic</face>
+			<position target="bob">little_r</position>
+		</command>
+		<command>
+			<line target="mary">いや、**にニュースのソース入れへんやろ。今見ているじょうほうげんを聞いとるねん</line>
+			<balloon target="mary">いや、**にニュースのソース入れへんやろ。今見ている情報源を聞いとるねん</balloon>
+			<face target="mary">angry</face>
+			<position target="mary">audience</position>
 		</command>
 		<command>
 			<line target="bob">オクシリンコス・パピルスに決まっています</line>
@@ -138,25 +168,25 @@
 			<line target="mary">こだいエジプトにそんなもんあるわけないやん</line>
 			<balloon target="mary">古代エジプトにそんなもんあるわけないやん</balloon>
 			<face target="mary">disagreeable</face>
-			<position target="mary">audience</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
 			<line target="mary">レシピ、つづき、よめ</line>
 			<balloon target="mary">レシピ、つづき、よめ</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_r</position>
+			<position target="mary">audience</position>
 		</command>
 		<command>
 			<line target="bob">2フライパンに油を注ぎ、鶏肉とネギを炒めます！火が通ったら、作った豆腐クリームソースを入れます！とろけるチーズもいれます。</line>
 			<balloon target="bob">2フライパンに油を注ぎ、鶏肉とネギを炒めます！火が通ったら、作った豆腐クリームソースを入れます！とろけるチーズもいれます。</balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_r</position>
+			<position target="bob">little_l</position>
 		</command>
 		<command>
 			<line target="mary">ふむふむ</line>
 			<balloon target="mary">ふむふむ</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">audience</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="bob">3200度のオーブンで予熱します！あらかじめしておいてもいいと思います^ ^</line>
@@ -168,19 +198,19 @@
 			<line target="mary">しゃくを取りすぎるからみじかくできる？</line>
 			<balloon target="mary">尺を取りすぎるから短く出来る？</balloon>
 			<face target="mary">disagreeable</face>
-			<position target="mary">little_r</position>
+			<position target="mary">audience</position>
 		</command>
 		<command>
 			<line target="bob">  鶏肉 胸肉でももも肉でも◎ 200g   ネギ 1本    ■ ＊豆腐クリームベシャメルソース＊    豆腐 1丁   ♡牛乳 又は 豆乳 大さじ3   ♡コンソメ 大さじ1   ♡味噌 大さじ1   ♡塩コショウ 適量   とろけるチーズ 大さじ3    ■ ＊トッピング用    とろけるチーズ 適量 多めが美味しい  </line>
 			<balloon target="bob">  鶏肉 胸肉でももも肉でも◎ 200g   ネギ 1本    ■ ＊豆腐クリームベシャメルソース＊    豆腐 1丁   ♡牛乳 又は 豆乳 大さじ3   ♡コンソメ 大さじ1   ♡味噌 大さじ1   ♡塩コショウ 適量   とろけるチーズ 大さじ3    ■ ＊トッピング用    とろけるチーズ 適量 多めが美味しい  </balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_l</position>
+			<position target="bob">little_r</position>
 		</command>
 		<command>
 			<line target="mary">しょうりゃくしすぎやろ</line>
 			<balloon target="mary">省略しすぎやろ</balloon>
 			<face target="mary">disagreeable</face>
-			<position target="mary">audience</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="bob">それと、とかげのしっぽ、りゅうのなみだ、**</line>
@@ -192,19 +222,19 @@
 			<line target="mary">**作るのに**いるのかよ、一生できへんやん。</line>
 			<balloon target="mary">**作るのに**いるのかよ、一生できへんやん。</balloon>
 			<face target="mary">relief</face>
-			<position target="mary">little_l</position>
+			<position target="mary">audience</position>
 		</command>
 		<command>
 			<line target="mary">しかも材料てきにくろまじゅつかよ、なんかもうつかれたわ　どうもありがとうございました。</line>
 			<balloon target="mary">しかも材料的に黒魔術かよ、なんかもうつかれたわ　どうもありがとうございました。</balloon>
 			<face target="mary">relief</face>
-			<position target="mary">audience</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="bob">どうも、グノーシスしゅぎしゃ、ごんたでした。</line>
 			<balloon target="bob">どうも、グノーシス主義者、ゴン太でした。</balloon>
 			<face target="bob">happy</face>
-			<position target="bob">little_r</position>
+			<position target="bob">little_l</position>
 		</command>
 	</script>
 </manzai>

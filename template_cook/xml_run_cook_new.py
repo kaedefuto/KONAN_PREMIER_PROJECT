@@ -5,20 +5,31 @@ import boke.Roberta
 
 
 import datetime
+import random
 dt_now = datetime.datetime.now()
 day=dt_now.strftime('%m%d')
 
 day_old=str(int(day)-1)
 
+with open("./food/foodname.txt", "r", encoding="utf-8") as f:
+    l = f.readlines()
+    text = random.choice(l)
+    cook_word = text.replace("\n", "")
+    #print(text.replace("\n",""))
+
 c_new= cookpad_date.html(day)
 c_old= cookpad_date.html(day_old)
-c_word = cookpad_date.html_word("餃子")
+c_word = cookpad_date.html_word(cook_word)
 #c_word2 = cookpad_date.html_word("天津飯")
-print(c_word[2].replace("   ","，"))
+#print(c_word[2].replace("   ","，"))
 
 #print(c_word2)
 #c = ["タイトル", "要約", "材料", "手順(作り方)" ,"アドバイス", "歴史"]
 #print(c_new[3][0])
+
+
+
+
 
 
 
