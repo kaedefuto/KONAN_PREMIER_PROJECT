@@ -24,13 +24,13 @@
 			<line target="mary">ゴン太はすきなわしょくのこんだてってあるか？</line>
 			<balloon target="mary">ゴン太は好きな和食の献立ってあるか？</balloon>
 			<face target="mary">pleasant</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="bob">とうぜんながらバッテリーです。あ、わしょくだからなまりちくでんちか。</line>
 			<balloon target="bob">当然ながらバッテリーです。あ、和食だから鉛蓄電池か。</balloon>
 			<face target="bob">sad</face>
-			<position target="bob">little_l</position>
+			<position target="bob">little_r</position>
 		</command>
 		<command>
 			<line target="mary">かなしいロボットのさが、やな。</line>
@@ -42,17 +42,17 @@
 			<line target="mary">じゃあ食べてみたいものは？</line>
 			<balloon target="mary">じゃあ食べてみたいものは？</balloon>
 			<face target="mary">sad</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
-			<line target="bob">鶏肉とネギの豆腐クリームグラタン♡です。</line>
-			<balloon target="bob">鶏肉とネギの豆腐クリームグラタン♡です。</balloon>
+			<line target="bob">カルバドスです。</line>
+			<balloon target="bob">カルバドスです。</balloon>
 			<face target="bob">like</face>
 			<position target="bob">audience</position>
 		</command>
 		<command>
-			<line target="bob">鶏肉とネギの豆腐クリームグラタン♡はママのあじー</line>
-			<balloon target="bob">鶏肉とネギの豆腐クリームグラタン♡はママのあじー</balloon>
+			<line target="bob">カルバドスはママのあじー</line>
+			<balloon target="bob">カルバドスはママのあじー</balloon>
 			<face target="bob">happy</face>
 			<position target="bob">little_r</position>
 		</command>
@@ -63,10 +63,10 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="mary">ところで、鶏肉とネギの豆腐クリームグラタン♡ってどうやって作るっけ</line>
-			<balloon target="mary">ところで、鶏肉とネギの豆腐クリームグラタン♡ってどうやって作るっけ</balloon>
+			<line target="mary">ところで、カルバドスってどうやって作るっけ</line>
+			<balloon target="mary">ところで、カルバドスってどうやって作るっけ</balloon>
 			<face target="mary">shame</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
 			<line target="bob">楽勝や，人工知能で調べたるわ</line>
@@ -81,20 +81,26 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">料理名は白菜ともやしのギョウザスープだよ</line>
-			<balloon target="bob">料理名は白菜ともやしのギョウザスープだよ</balloon>
+			<line target="bob">料理名はブランデーケーキ♪♪だよ</line>
+			<balloon target="bob">料理名はブランデーケーキ♪♪だよ</balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_r</position>
+			<position target="bob">little_l</position>
 		</command>
 		<command>
-			<line target="bob">材料は  ギョウザの付属タレ １袋，万能ネギ塩だれ 大さじ１，鶏ガラスープの素 小さじ１，水 800～1000ml，ざく切り白菜 １袋(230g)，もやし １袋，市販のギョウザ １袋(12個入り)，塩こしょう 適量，濃口醤油  小さじ２，ゴマ油  大さじ１  です</line>
-			<balloon target="bob">材料は  ギョウザの付属タレ １袋，万能ネギ塩だれ 大さじ１，鶏ガラスープの素 小さじ１，水 800～1000ml，ざく切り白菜 １袋(230g)，もやし １袋，市販のギョウザ １袋(12個入り)，塩こしょう 適量，濃口醤油  小さじ２，ゴマ油  大さじ１  です</balloon>
+			<line target="bob">材料は  無塩バター 100g，グラニュー糖  90g，薄力粉（ドルチェ） 100g，ベーキングパウダー  小さじ1/2，卵（溶きます♪） 2個，ブランデー  大さじ2，ブランデー（焼き上がり後）  お好みの量  です</line>
+			<balloon target="bob">材料は  無塩バター 100g，グラニュー糖  90g，薄力粉（ドルチェ） 100g，ベーキングパウダー  小さじ1/2，卵（溶きます♪） 2個，ブランデー  大さじ2，ブランデー（焼き上がり後）  お好みの量  です</balloon>
 			<face target="bob">idyllic</face>
 			<position target="bob">audience</position>
 		</command>
 		<command>
-			<line target="bob">えーと，まず，  ギョウザの付属タレ １袋を作ります</line>
-			<balloon target="bob">えーと，まず，  ギョウザの付属タレ １袋を作ります</balloon>
+			<line target="mary">長いなー</line>
+			<balloon target="mary">長いなー</balloon>
+			<face target="mary">idyllic</face>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line target="bob">えーと，まず，無塩バター100gを作ります</line>
+			<balloon target="bob">えーと，まず，無塩バター100gを作ります</balloon>
 			<face target="bob">idyllic</face>
 			<position target="bob">little_r</position>
 		</command>
@@ -102,7 +108,7 @@
 			<line target="mary">ちょっと待て，どんだけかかるねん</line>
 			<balloon target="mary">ちょっと待て，どんだけかかるねん</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_l</position>
+			<position target="mary">audience</position>
 		</command>
 		<command>
 			<line target="bob">5年くらいかかりますわ</line>
@@ -114,85 +120,75 @@
 			<line target="mary">生産者になりたいわけじゃないねん</line>
 			<balloon target="mary">生産者になりたいわけじゃないねん</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">audience</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="mary">料理の手順を教えてくれよ</line>
 			<balloon target="mary">料理の手順を教えてくれよ</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_l</position>
+			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">まず，1＊豆腐クリームベシャメルソース豆腐をつぶしてなめらかにします。♡の調味料を入れて混ぜてソースの完成*\(^o^)/*</line>
-			<balloon target="bob">まず，1＊豆腐クリームベシャメルソース豆腐をつぶしてなめらかにします。♡の調味料を入れて混ぜてソースの完成*\(^o^)/*</balloon>
+			<line target="bob">まず，In its most general sense, the term &quot;world&quot; refers to the totality of entities, to the whole of reality or to everything that is. The nature of the world has been conceptualized differently in different fields. Some conceptions see the world as unique while others talk of a &quot;plurality of worlds&quot;. Some treat the world as one simple object while others analyze the world as a complex made up of many parts. In scientific cosmology the world or universe is commonly defined as &quot;[t]he totality of all space and time; all that is, has been, and will be&quot;. Theories of modality, on the other hand, talk of possible worlds as complete and consistent ways how things could have been. Phenomenology, starting from the horizon of co-given objects present in the periphery of every experience, defines the world as the biggest horizon or the &quot;horizon of all horizons&quot;. In philosophy of mind, the world is commonly contrasted with the mind as that which is represented by the mind. Theology conceptualizes the world in relation to God, for example, as God's creation, as identical to God or as the two being interdependent. In religions, there is often a tendency to downgrade the material or sensory world in favor of a spiritual world to be sought through religious practice. A comprehensive representation of the world and our place in it, as is commonly found in religions, is known as a worldview. Cosmogony is the field that studies the origin or creation of the world while eschatology refers to the science or doctrine of the last things or of the end of the world.
+In various contexts, the term &quot;world&quot; takes a more restricted meaning associated, for example, with the Earth and all life on it, with humanity as a whole or with an international or intercontinental scope. In this sense, world history refers to the history of humanity as a whole or world politics is the discipline of political science studying issues that transcend nations and continents. Other examples include terms such as &quot;world religion&quot;, &quot;world language&quot;, &quot;world government&quot;, &quot;world war&quot;, &quot;world population&quot;, &quot;world economy&quot; or &quot;world championship&quot;.</line>
+			<balloon target="bob">まず，In its most general sense, the term &quot;world&quot; refers to the totality of entities, to the whole of reality or to everything that is. The nature of the world has been conceptualized differently in different fields. Some conceptions see the world as unique while others talk of a &quot;plurality of worlds&quot;. Some treat the world as one simple object while others analyze the world as a complex made up of many parts. In scientific cosmology the world or universe is commonly defined as &quot;[t]he totality of all space and time; all that is, has been, and will be&quot;. Theories of modality, on the other hand, talk of possible worlds as complete and consistent ways how things could have been. Phenomenology, starting from the horizon of co-given objects present in the periphery of every experience, defines the world as the biggest horizon or the &quot;horizon of all horizons&quot;. In philosophy of mind, the world is commonly contrasted with the mind as that which is represented by the mind. Theology conceptualizes the world in relation to God, for example, as God's creation, as identical to God or as the two being interdependent. In religions, there is often a tendency to downgrade the material or sensory world in favor of a spiritual world to be sought through religious practice. A comprehensive representation of the world and our place in it, as is commonly found in religions, is known as a worldview. Cosmogony is the field that studies the origin or creation of the world while eschatology refers to the science or doctrine of the last things or of the end of the world.
+In various contexts, the term &quot;world&quot; takes a more restricted meaning associated, for example, with the Earth and all life on it, with humanity as a whole or with an international or intercontinental scope. In this sense, world history refers to the history of humanity as a whole or world politics is the discipline of political science studying issues that transcend nations and continents. Other examples include terms such as &quot;world religion&quot;, &quot;world language&quot;, &quot;world government&quot;, &quot;world war&quot;, &quot;world population&quot;, &quot;world economy&quot; or &quot;world championship&quot;.</balloon>
 			<face target="bob">idyllic</face>
 			<position target="bob">little_r</position>
 		</command>
 		<command>
-			<line target="mary">ちょっとまって、情報のソースは</line>
-			<balloon target="mary">ちょっとまって、情報のソースは？</balloon>
-			<face target="mary">disagreeable</face>
-			<position target="mary">audience</position>
-		</command>
-		<command>
-			<line target="bob">まず，1＊豆腐クリームベシャメルソース豆腐をつぶしてなめらかにします。♡の調味料を入れて混ぜてソースの完成*\(^o^)/*</line>
-			<balloon target="bob">まず，1＊豆腐クリームベシャメルソース豆腐をつぶしてなめらかにします。♡の調味料を入れて混ぜてソースの完成*\(^o^)/*</balloon>
-			<face target="bob">idyllic</face>
-			<position target="bob">audience</position>
-		</command>
-		<command>
-			<line target="mary">ちょっとまって、情報のソースは</line>
-			<balloon target="mary">ちょっとまって、情報のソースは？</balloon>
+			<line target="mary">ちょっとまって、その情報のソースは</line>
+			<balloon target="mary">ちょっとまって、その情報のソースは？</balloon>
 			<face target="mary">disagreeable</face>
 			<position target="mary">little_r</position>
 		</command>
 		<command>
-			<line target="bob">Yahoo!ニュースのソース</line>
-			<balloon target="bob">Yahoo!ニュースのソース</balloon>
+			<line target="bob">https://en.wikipedia.org/wiki/List_of_Case_Closed_characters</line>
+			<balloon target="bob">https://en.wikipedia.org/wiki/List_of_Case_Closed_characters</balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_r</position>
+			<position target="bob">audience</position>
 		</command>
 		<command>
-			<line target="mary">いや、**にニュースのソース入れへんやろ。今見ているじょうほうげんを聞いとるねん</line>
-			<balloon target="mary">いや、**にニュースのソース入れへんやろ。今見ている情報源を聞いとるねん</balloon>
+			<line target="mary">いや、urlじゃわからんのよ。今見ているじょうほうげんを聞いとるねん</line>
+			<balloon target="mary">いや、urlじゃわからんのよ。今見ている情報源を聞いとるねん</balloon>
 			<face target="mary">angry</face>
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">オクシリンコス・パピルスに決まっています</line>
-			<balloon target="bob">オクシリンコス・パピルスにきまっています</balloon>
+			<line target="bob">我らが大先生、wikipediaに決まってます</line>
+			<balloon target="bob">我らが大先生、wikipediaに決まってます</balloon>
 			<face target="bob">disagreeable</face>
-			<position target="bob">audience</position>
+			<position target="bob">little_l</position>
 		</command>
 		<command>
-			<line target="mary">こだいエジプトにそんなもんあるわけないやん</line>
-			<balloon target="mary">古代エジプトにそんなもんあるわけないやん</balloon>
+			<line target="mary">嘘情報も多いし，大先生ではないんよ</line>
+			<balloon target="mary">嘘情報も多いし，大先生ではないんよ</balloon>
 			<face target="mary">disagreeable</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
-			<line target="mary">レシピ、つづき、よめ</line>
-			<balloon target="mary">レシピ、つづき、よめ</balloon>
+			<line target="mary">もうええわ、レシピ、最初から、よめ</line>
+			<balloon target="mary">もうええわ、レシピ、最初から、よめ</balloon>
 			<face target="mary">idyllic</face>
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">2フライパンに油を注ぎ、鶏肉とネギを炒めます！火が通ったら、作った豆腐クリームソースを入れます！とろけるチーズもいれます。</line>
-			<balloon target="bob">2フライパンに油を注ぎ、鶏肉とネギを炒めます！火が通ったら、作った豆腐クリームソースを入れます！とろけるチーズもいれます。</balloon>
+			<line target="bob">1豚肉に塩こしょう、酒をふってもみ、片栗粉を加え、更に全体にもみ込む。</line>
+			<balloon target="bob">1豚肉に塩こしょう、酒をふってもみ、片栗粉を加え、更に全体にもみ込む。</balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_l</position>
+			<position target="bob">audience</position>
 		</command>
 		<command>
-			<line target="mary">ふむふむ</line>
-			<balloon target="mary">ふむふむ</balloon>
+			<line target="mary">ふむふむ、次は</line>
+			<balloon target="mary">ふむふむ、次は</balloon>
 			<face target="mary">idyllic</face>
 			<position target="mary">little_r</position>
 		</command>
 		<command>
-			<line target="bob">3200度のオーブンで予熱します！あらかじめしておいてもいいと思います^ ^</line>
-			<balloon target="bob">3200度のオーブンで予熱します！あらかじめしておいてもいいと思います^ ^</balloon>
+			<line target="bob">2大根の皮をむき、スライサーなどで厚さ２ミリくらいにスライスする。ニラは食べやすい長さに切る。◎◎◎を合わせる。</line>
+			<balloon target="bob">2大根の皮をむき、スライサーなどで厚さ２ミリくらいにスライスする。ニラは食べやすい長さに切る。◎◎◎を合わせる。</balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">audience</position>
+			<position target="bob">little_r</position>
 		</command>
 		<command>
 			<line target="mary">しゃくを取りすぎるからみじかくできる？</line>
@@ -201,10 +197,10 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">  鶏肉 胸肉でももも肉でも◎ 200g   ネギ 1本    ■ ＊豆腐クリームベシャメルソース＊    豆腐 1丁   ♡牛乳 又は 豆乳 大さじ3   ♡コンソメ 大さじ1   ♡味噌 大さじ1   ♡塩コショウ 適量   とろけるチーズ 大さじ3    ■ ＊トッピング用    とろけるチーズ 適量 多めが美味しい  </line>
-			<balloon target="bob">  鶏肉 胸肉でももも肉でも◎ 200g   ネギ 1本    ■ ＊豆腐クリームベシャメルソース＊    豆腐 1丁   ♡牛乳 又は 豆乳 大さじ3   ♡コンソメ 大さじ1   ♡味噌 大さじ1   ♡塩コショウ 適量   とろけるチーズ 大さじ3    ■ ＊トッピング用    とろけるチーズ 適量 多めが美味しい  </balloon>
+			<line target="bob">  大根 約1/4本   ニラ 1束   豚肉 140ｇくらい   ●塩こしょう 少々   ●酒 大さじ1/2   ●片栗粉  小さじ１強   ◎しょうゆ 小さじ2   ◎オイスターソース  小さじ2   ◎砂糖 小さじ1   ◎しょうがチューブ  ３㎝くらい   ◎ごま油  大さじ1  </line>
+			<balloon target="bob">  大根 約1/4本   ニラ 1束   豚肉 140ｇくらい   ●塩こしょう 少々   ●酒 大さじ1/2   ●片栗粉  小さじ１強   ◎しょうゆ 小さじ2   ◎オイスターソース  小さじ2   ◎砂糖 小さじ1   ◎しょうがチューブ  ３㎝くらい   ◎ごま油  大さじ1  </balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_r</position>
+			<position target="bob">audience</position>
 		</command>
 		<command>
 			<line target="mary">しょうりゃくしすぎやろ</line>
@@ -216,7 +212,7 @@
 			<line target="bob">それと、とかげのしっぽ、りゅうのなみだ、**</line>
 			<balloon target="bob">それと、とかげのしっぽ、りゅうのなみだ、**</balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">audience</position>
+			<position target="bob">little_r</position>
 		</command>
 		<command>
 			<line target="mary">**作るのに**いるのかよ、一生できへんやん。</line>
@@ -234,7 +230,7 @@
 			<line target="bob">どうも、グノーシスしゅぎしゃ、ごんたでした。</line>
 			<balloon target="bob">どうも、グノーシス主義者、ゴン太でした。</balloon>
 			<face target="bob">happy</face>
-			<position target="bob">little_l</position>
+			<position target="bob">audience</position>
 		</command>
 	</script>
 </manzai>
