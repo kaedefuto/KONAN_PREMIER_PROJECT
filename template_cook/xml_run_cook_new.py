@@ -30,7 +30,6 @@ print(c_new)
 
 
 
-
 # 出力ファイルパス
 OUTPUT_FILE_PATH = "./volume_test.xml"
 
@@ -232,8 +231,8 @@ make("mary", {
 })
 
 make("bob", {
-    "line": ""+c_new[3][0]+"",
-    "balloon": ""+c_new[3][0]+"",
+    "line": ""+c_word[3][0]+"",
+    "balloon": ""+c_word[3][0]+"",
     "face": "idyllic"
 })
 
@@ -244,12 +243,25 @@ make("mary", {
 })
 
 make("bob", {
-    "line": ""+c_new[3][1]+"",
-    "balloon": ""+c_new[3][1]+"",
+    "line": ""+c_word[3][1]+"",
+    "balloon": ""+c_word[3][1]+"",
     "face": "idyllic"
 })
+#ぼけ1
+make("mary", {
+    "line": "おいおい、"+c_word[0]+"に"+c_word[0]+"は入れんやろ",
+    "balloon": "おいおい、"+c_word[0]+"に"+c_word[0]+"は入れんやろ",
+    "face": "idyllic"
+})
+
+make("bob", {
+    "line": "",
+    "balloon": "",
+    "face": "idyllic"
+})
+
 #-------------------------------------------------------------
-#料理1
+#料理2
 make("bob", {
     "line": "あいちゃんが好きな食べ物は何?",
     "balloon": "あいちゃんが好きな食べ物は何?",
@@ -269,8 +281,8 @@ make("bob", {
 })
 
 make("bob", {
-    "line": "本日のオヌヌメ料理は"++"です",
-    "balloon": "本日のオヌヌメ料理は"++"です",
+    "line": "本日のオヌヌメ料理は"+c_new[0]+"です",
+    "balloon": "本日のオヌヌメ料理は"+c_new[0]+"です",
     "face": "happy"
 })
 
@@ -280,19 +292,103 @@ make("mary", {
     "face": "idyllic"
 })
 
+make("bob", {
+    "line": "えーと，まずは"+c_new[5],
+    "balloon": "えーと，まずは"+c_new[5],
+    "face": "happy"
+})
 
+make("mary", {
+    "line": "それって、あなたの感想ですよね",
+    "balloon": "それって、あなたの感想ですよね",
+    "face": "idyllic"
+})
+
+make("bob", {
+    "line": "そうですけど、何か問題でもありますか",
+    "balloon": "そうですけど、何か問題でもありますか",
+    "face": "happy"
+})
+
+make("mary", {
+    "line": "開き直るなや、料理の作り方を読めや",
+    "balloon": "開き直るなや、料理の作り方を読めや",
+    "face": "idyllic"
+})
+
+make("bob", {
+    "line": "ういー、えーっと"+c_new[4],
+    "balloon": "ういー、えーっと"+c_new[4],
+    "face": "happy"
+})
+
+make("mary", {
+    "line": "それって、あなたのコツですよね",
+    "balloon": "それって、あなたのコツですよね",
+    "face": "idyllic"
+})
+
+make("bob", {
+    "line": "そのツッコミはもうええわ、ロボットにも間違いはあるねん",
+    "balloon": "そのツッコミはもうええわ、ロボットにも間違いはあるねん",
+    "face": "happy"
+})
+
+make("mary", {
+    "line": "ほな、続きよめや",
+    "balloon": "ほな、続きよめや",
+    "face": "idyllic"
+})
+
+make("bob", {
+    "line": ""+c_new[3][0],
+    "balloon": ""+c_new[3][0],
+    "face": "happy"
+})
+
+make("mary", {
+    "line": "次、",
+    "balloon": "次、",
+    "face": "idyllic"
+})
+
+make("bob", {
+    "line": ""+c_new[3][1],
+    "balloon": ""+c_new[3][1],
+    "face": "happy"
+})
+
+make("mary", {
+    "line": "次、次、次----",
+    "balloon": "次、次、次----",
+    "face": "idyllic"
+})
+#ボケ2
+make("bob", {
+    "line": ""+c_new[3][1],
+    "balloon": ""+c_new[3][1],
+    "face": "happy"
+})
+
+make("mary", {
+    "line": "なんでやんん",
+    "balloon": "何でやねん",
+    "face": "idyllic"
+})
 
 #--------------------------------------------------------------
 #オチ
+
 make("mary", {
-    "line": "しゃくを取りすぎるからみじかくできる？",
-    "balloon": "尺を取りすぎるから短く出来る？",
-    "face": "disagreeable"
+    "line": "もうええわ、作り方なんもわからんから最後に簡単に説明してや",
+    "balloon": "もうええわ、作り方なんもわからんから最後に簡単に説明してや",
+    "face": "idyllic"
 })
+
 #(レシピのうち材料の名前を単語区切りに読む)
 make("bob", {
-    "line": ""+c_new[2]+"",
-    "balloon": ""+c_new[2]+"",
+    "line": ""+c_new[1]+"や、どうや",
+    "balloon": ""+c_new[1]+"や、どうや",
     "face": "idyllic"
 })
 
@@ -302,26 +398,15 @@ make("mary", {
     "face": "disagreeable"
 })
 
-make("bob", {
-    "line": "それと、とかげのしっぽ、りゅうのなみだ、**",
-    "balloon": "それと、とかげのしっぽ、りゅうのなみだ、**",
-    "face": "idyllic"
-})
-
 make("mary", {
-    "line": "**作るのに**いるのかよ、一生できへんやん。",
-    "balloon": "**作るのに**いるのかよ、一生できへんやん。",
-    "face": "relief"
-})
-make("mary", {
-    "line": "しかも材料てきにくろまじゅつかよ、なんかもうつかれたわ　どうもありがとうございました。",
-    "balloon": "しかも材料的に黒魔術かよ、なんかもうつかれたわ　どうもありがとうございました。",
+    "line": "しかもそれなんかキャッチコピーみたいやん、なんかもうつかれたわ　どうもありがとうございました。",
+    "balloon": "しかもそれなんかキャッチコピーみたいやん、なんかもうつかれたわ　どうもありがとうございました。",
     "face": "relief"
 })
 
 make("bob", {
-    "line": "どうも、グノーシスしゅぎしゃ、ごんたでした。",
-    "balloon": "どうも、グノーシス主義者、ゴン太でした。",
+    "line": "どうも、グノーシスしゅぎしゃ、ゴンザレスいや、ごんたでした。",
+    "balloon": "どうも、グノーシス主義者、ゴンザレスいや、ゴン太でした。",
     "face": "happy"
 })
 
