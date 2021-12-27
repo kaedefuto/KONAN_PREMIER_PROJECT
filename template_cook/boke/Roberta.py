@@ -49,7 +49,7 @@ def roberta(text, masked_idx=5):
         #print(i, token)
 
     l=""
-    for i in tokens:
+    for i in tokens[1:]:
         if i !="[MASK]":
             l+=i
         else:

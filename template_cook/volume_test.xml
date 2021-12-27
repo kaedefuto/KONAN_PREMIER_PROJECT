@@ -45,16 +45,16 @@
 			<position target="mary">little_r</position>
 		</command>
 		<command>
-			<line target="bob">コロッケです。</line>
-			<balloon target="bob">コロッケです。</balloon>
+			<line target="bob">たぬき汁です。</line>
+			<balloon target="bob">たぬき汁です。</balloon>
 			<face target="bob">like</face>
 			<position target="bob">audience</position>
 		</command>
 		<command>
-			<line target="bob">コロッケはママのあじー</line>
-			<balloon target="bob">コロッケはママのあじー</balloon>
+			<line target="bob">たぬき汁はママのあじー</line>
+			<balloon target="bob">たぬき汁はママのあじー</balloon>
 			<face target="bob">happy</face>
-			<position target="bob">little_l</position>
+			<position target="bob">little_r</position>
 		</command>
 		<command>
 			<line target="mary">おかあさん以外も作るし字余りなんよ。</line>
@@ -63,10 +63,10 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="mary">ところで、コロッケってどうやって作るっけ</line>
-			<balloon target="mary">ところで、コロッケってどうやって作るっけ</balloon>
+			<line target="mary">ところで、たぬき汁ってどうやって作るっけ</line>
+			<balloon target="mary">ところで、たぬき汁ってどうやって作るっけ</balloon>
 			<face target="mary">shame</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="bob">楽勝や，人工知能で調べたるわ</line>
@@ -81,20 +81,20 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">材料は  ポテトコロッケ 何個でも，  ，   ，   ，   ， 水or牛乳 適量，油  適量，小麦粉 適量  です</line>
-			<balloon target="bob">材料は  ポテトコロッケ 何個でも，  ，   ，   ，   ， 水or牛乳 適量，油  適量，小麦粉 適量  です</balloon>
+			<line target="bob">材料は  油揚げ １枚，こんにゃく １/４袋，里芋 中２個，えのき １/４袋，お好みのみそ 大さじ２くらい(お好みの量)，お好みのだし(かつおぶしでも顆粒だしでも) 適量  です</line>
+			<balloon target="bob">材料は  油揚げ １枚，こんにゃく １/４袋，里芋 中２個，えのき １/４袋，お好みのみそ 大さじ２くらい(お好みの量)，お好みのだし(かつおぶしでも顆粒だしでも) 適量  です</balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_r</position>
+			<position target="bob">little_l</position>
 		</command>
 		<command>
 			<line target="mary">長いなー</line>
 			<balloon target="mary">長いなー</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
-			<line target="bob">えーと，まず，ポテトコロッケ何個でもを作ります</line>
-			<balloon target="bob">えーと，まず，ポテトコロッケ何個でもを作ります</balloon>
+			<line target="bob">えーと，まず，油揚げ１枚を作ります</line>
+			<balloon target="bob">えーと，まず，油揚げ１枚を作ります</balloon>
 			<face target="bob">idyllic</face>
 			<position target="bob">audience</position>
 		</command>
@@ -123,8 +123,8 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">まず，コロッケ（Korokke、英: Potato croquettes）は、茹でて潰したジャガイモやクリームソースに挽肉や野菜などを混ぜ合わせ、丸めて衣で包み食用油でフライ状に揚げた、西洋料理のクロケット（仏: croquette、蘭: kroket）を模倣した日本の洋食の一つ</line>
-			<balloon target="bob">まず，コロッケ（Korokke、英: Potato croquettes）は、茹でて潰したジャガイモやクリームソースに挽肉や野菜などを混ぜ合わせ、丸めて衣で包み食用油でフライ状に揚げた、西洋料理のクロケット（仏: croquette、蘭: kroket）を模倣した日本の洋食の一つ</balloon>
+			<line target="bob">まず，たぬき汁（たぬきじる）とは、精進料理の一種でコンニャクを入れた味噌汁</line>
+			<balloon target="bob">まず，たぬき汁（たぬきじる）とは、精進料理の一種でコンニャクを入れた味噌汁</balloon>
 			<face target="bob">idyllic</face>
 			<position target="bob">audience</position>
 		</command>
@@ -132,13 +132,13 @@
 			<line target="mary">ちょっとまって、その情報のソースは</line>
 			<balloon target="mary">ちょっとまって、その情報のソースは？</balloon>
 			<face target="mary">disagreeable</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
-			<line target="bob">https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%AD%E3%83%83%E3%82%B1</line>
-			<balloon target="bob">https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%AD%E3%83%83%E3%82%B1</balloon>
+			<line target="bob">https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%AC%E3%81%8D%E6%B1%81</line>
+			<balloon target="bob">https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%AC%E3%81%8D%E6%B1%81</balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_r</position>
+			<position target="bob">little_l</position>
 		</command>
 		<command>
 			<line target="mary">いや、urlじゃわからんのよ。今見ているじょうほうげんを聞いとるねん</line>
@@ -165,8 +165,8 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">1コロッケを作る時、小麦粉→溶き卵→パン粉の順番でつけますよね。卵無しだとどうなるかってことで検証しました</line>
-			<balloon target="bob">1コロッケを作る時、小麦粉→溶き卵→パン粉の順番でつけますよね。卵無しだとどうなるかってことで検証しました</balloon>
+			<line target="bob">1こんにゃくは食べやすい大きさに切りさっと熱湯をかけておく。</line>
+			<balloon target="bob">1こんにゃくは食べやすい大きさに切りさっと熱湯をかけておく。</balloon>
 			<face target="bob">idyllic</face>
 			<position target="bob">little_l</position>
 		</command>
@@ -174,17 +174,17 @@
 			<line target="mary">ふむふむ、次は</line>
 			<balloon target="mary">ふむふむ、次は</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
-			<line target="bob">2あり→コクがあるなし→コクがなくあっさり</line>
-			<balloon target="bob">2あり→コクがあるなし→コクがなくあっさり</balloon>
+			<line target="bob">2油揚げは細切り、里芋は半月切り、えのきは２センチくらいの長さに切る。</line>
+			<balloon target="bob">2油揚げは細切り、里芋は半月切り、えのきは２センチくらいの長さに切る。</balloon>
 			<face target="bob">idyllic</face>
 			<position target="bob">audience</position>
 		</command>
 		<command>
-			<line target="mary">おいおい、卵なしポテトコロッケに卵なしポテトコロッケは入れんやろ</line>
-			<balloon target="mary">おいおい、卵なしポテトコロッケに卵なしポテトコロッケは入れんやろ</balloon>
+			<line target="mary">おいおい、懐かしい給食の味！たぬき汁☆に懐かしい給食の味！たぬき汁☆は入れんやろ</line>
+			<balloon target="mary">おいおい、懐かしい給食の味！たぬき汁☆に懐かしい給食の味！たぬき汁☆は入れんやろ</balloon>
 			<face target="mary">idyllic</face>
 			<position target="mary">audience</position>
 		</command>
@@ -234,7 +234,7 @@
 			<line target="bob">えーと，まずはおせち料理用に作りました。【おせちの由来 ・ 海老】海老は長いヒゲと腰から曲がる姿を長寿の老人に見たて、腰が曲がるまで元気いるようにと長寿を願う縁起もの。紅白の色もめでたい。</line>
 			<balloon target="bob">えーと，まずはおせち料理用に作りました。【おせちの由来 ・ 海老】海老は長いヒゲと腰から曲がる姿を長寿の老人に見たて、腰が曲がるまで元気いるようにと長寿を願う縁起もの。紅白の色もめでたい。</balloon>
 			<face target="bob">happy</face>
-			<position target="bob">little_l</position>
+			<position target="bob">little_r</position>
 		</command>
 		<command>
 			<line target="mary">それって、あなたの感想ですよね</line>
@@ -303,8 +303,8 @@
 			<position target="mary">little_r</position>
 		</command>
 		<command>
-			<line target="bob">[CLS]3仕上がりが「つ」の字になるよう海老の背を曲げ、楊枝でる。</line>
-			<balloon target="bob">[CLS]3仕上がりが「つ」の字になるよう海老の背を曲げ、楊枝でる。</balloon>
+			<line target="bob">3仕上がりが「つ」の字になるよう海老の背を曲げ、楊枝でる。</line>
+			<balloon target="bob">3仕上がりが「つ」の字になるよう海老の背を曲げ、楊枝でる。</balloon>
 			<face target="bob">happy</face>
 			<position target="bob">little_r</position>
 		</command>
@@ -336,13 +336,13 @@
 			<line target="bob">「赤」を強調するために薄口＆濃口醤油で仕上げています。関東人には濃口醤油入りの方が口に合うかも！？や、どうや</line>
 			<balloon target="bob">「赤」を強調するために薄口＆濃口醤油で仕上げています。関東人には濃口醤油入りの方が口に合うかも！？や、どうや</balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_r</position>
+			<position target="bob">little_l</position>
 		</command>
 		<command>
 			<line target="mary">思っていたより上手やな</line>
 			<balloon target="mary">思っていたより上手やな</balloon>
 			<face target="mary">disagreeable</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
 			<line target="mary">でも，それなんかキャッチコピーみたいやん、なんかもうつかれたわ　どうもありがとうございました。</line>
