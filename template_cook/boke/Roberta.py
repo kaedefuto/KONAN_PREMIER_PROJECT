@@ -1,5 +1,7 @@
 def roberta(text, masked_idx=5):
     from transformers import T5Tokenizer, RobertaForMaskedLM
+    import MeCab
+    token_list =[]
 
     tokenizer = T5Tokenizer.from_pretrained("rinna/japanese-roberta-base")
     tokenizer.do_lower_case = True  # due to some bug of tokenizer config loading
@@ -14,11 +16,12 @@ def roberta(text, masked_idx=5):
 
     # tokenize
     tokens = tokenizer.tokenize(text)
+    #print(len(tokens))
     #print(tokens)  # output: ['[CLS]', '▁4', '年に', '1', '度', 'オリンピック', 'は', '開かれる', '。']
 
     # mask a token
     #masked_idx = 5
-    tokens[masked_idx] = tokenizer.mask_token
+    tokens[len(tokens)-3] = tokenizer.mask_token
     #print(tokens)  # output: ['[CLS]', '▁4', '年に', '1', '度', '[MASK]', 'は', '開かれる', '。']
 
     # convert to ids
@@ -42,12 +45,24 @@ def roberta(text, masked_idx=5):
     for i, index_t in enumerate(predictions.indices):
         index = index_t.item()
         token = tokenizer.convert_ids_to_tokens([index])[0]
-        print(i, token)
+        token_list.append(tokenizer.convert_ids_to_tokens([index])[0])
+        #print(i, token)
+
+    l=""
+    for i in tokens:
+        if i !="[MASK]":
+            l+=i
+        else:
+            l+=token_list[0]
+
+    return l,token[0]
+
 
 
 def main():
     text = "4年に1度オリンピックは開かれる。"
-    roberta(text,5)
+    l ,i=roberta(text,5)
+    print(l)
 
 
 if __name__ == "__main__":

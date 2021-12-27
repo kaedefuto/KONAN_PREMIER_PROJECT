@@ -6,7 +6,8 @@ def wiki_url(word):
 
 
 def wiki_content(word):
-    page_content = wikipedia.page("word").summary
+    wikipedia.set_lang("ja")
+    page_content = wikipedia.page(word).content
     return page_content
 
 

@@ -104,7 +104,7 @@ def html(day):
         except:
             import traceback
             traceback.print_exc()
-    return maintexts
+    return maintexts,url
 
 def html_word(word):
     maintexts = []
