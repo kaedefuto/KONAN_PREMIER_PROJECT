@@ -31,8 +31,8 @@ c_old,url_old= cookpad_date.html(day_old)
 #c = ["タイトル", "要約", "材料", "手順(作り方)" ,"アドバイス", "歴史"]
 #print(c_new[3][0])
 text_ro, word_ro= Ro.roberta(c_new[3][2])
-print(c_new[3][2])
-print(text_ro.replace("▁", ""))
+print(c_new[3][2][1:])
+print(text_ro.replace("▁", "")[1:])
 
 
 
@@ -233,8 +233,8 @@ except:
 
 
     make("mary", {
-        "line": "ちょっとまって、その情報のソースは",
-        "balloon": "ちょっとまって、その情報のソースは？",
+        "line": "ちょっとまって、説明やん、その情報のソースは",
+        "balloon": "ちょっとまって、説明やん、その情報のソースは？",
         "face": "disagreeable"
     })
 
@@ -269,11 +269,12 @@ make("mary", {
     "face": "idyllic"
 })
 
-make("bob", {
-    "line": ""+c_word[3][0]+"",
-    "balloon": ""+c_word[3][0]+"",
-    "face": "idyllic"
-})
+make(
+    "bob", {
+        "line": "" + c_word[3][0][1:] + "",
+        "balloon": "" + c_word[3][0][1:] + "",
+        "face": "idyllic"
+    })
 
 make("mary", {
     "line": "ふむふむ、次は",
@@ -282,8 +283,8 @@ make("mary", {
 })
 
 make("bob", {
-    "line": ""+c_word[3][1]+"",
-    "balloon": ""+c_word[3][1]+"",
+    "line": ""+c_word[3][1][1:]+"",
+    "balloon": ""+c_word[3][1][1:]+"",
     "face": "idyllic"
 })
 #ぼけ1
@@ -385,8 +386,8 @@ make("mary", {
 })
 
 make("bob", {
-    "line": ""+c_new[3][0],
-    "balloon": ""+c_new[3][0],
+    "line": "" + c_new[3][0][1:],
+    "balloon": "" + c_new[3][0][1:],
     "face": "happy"
 })
 
@@ -397,8 +398,8 @@ make("mary", {
 })
 
 make("bob", {
-    "line": ""+c_new[3][1],
-    "balloon": ""+c_new[3][1],
+    "line": "" + c_new[3][1][1:],
+    "balloon": "" + c_new[3][1][1:],
     "face": "happy"
 })
 
@@ -409,8 +410,8 @@ make("mary", {
 })
 #ボケ2
 make("bob", {
-    "line": ""+text_ro.replace("▁", ""),
-    "balloon": ""+text_ro.replace("▁", ""),
+    "line": ""+text_ro.replace("▁", "")[1:],
+    "balloon": ""+text_ro.replace("▁", "")[1:],
     "face": "happy"
 })
 
@@ -421,8 +422,8 @@ make("mary", {
 })
 
 make("bob", {
-    "line": "おっと，読み間違えたわ"+c_new[3][2]+"やったわ",
-    "balloon": "おっと，読み間違えたわ"+c_new[3][2]+"やったわ",
+    "line": "おっと，読み間違えたわ"+c_new[3][2][1:]+"やったわ",
+    "balloon": "おっと，読み間違えたわ"+c_new[3][2][1:]+"やったわ",
     "face": "happy"
 })
 

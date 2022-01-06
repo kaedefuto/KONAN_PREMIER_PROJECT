@@ -24,7 +24,7 @@
 			<line target="mary">ゴン太はすきなわしょくのこんだてってあるか？</line>
 			<balloon target="mary">ゴン太は好きな和食の献立ってあるか？</balloon>
 			<face target="mary">pleasant</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
 			<line target="bob">とうぜんながらバッテリーです。あ、わしょくだからなまりちくでんちか。</line>
@@ -42,17 +42,17 @@
 			<line target="mary">じゃあ食べてみたいものは？</line>
 			<balloon target="mary">じゃあ食べてみたいものは？</balloon>
 			<face target="mary">sad</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
-			<line target="bob">たぬき汁です。</line>
-			<balloon target="bob">たぬき汁です。</balloon>
+			<line target="bob">チョココロネです。</line>
+			<balloon target="bob">チョココロネです。</balloon>
 			<face target="bob">like</face>
 			<position target="bob">audience</position>
 		</command>
 		<command>
-			<line target="bob">たぬき汁はママのあじー</line>
-			<balloon target="bob">たぬき汁はママのあじー</balloon>
+			<line target="bob">チョココロネはママのあじー</line>
+			<balloon target="bob">チョココロネはママのあじー</balloon>
 			<face target="bob">happy</face>
 			<position target="bob">little_r</position>
 		</command>
@@ -63,8 +63,8 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="mary">ところで、たぬき汁ってどうやって作るっけ</line>
-			<balloon target="mary">ところで、たぬき汁ってどうやって作るっけ</balloon>
+			<line target="mary">ところで、チョココロネってどうやって作るっけ</line>
+			<balloon target="mary">ところで、チョココロネってどうやって作るっけ</balloon>
 			<face target="mary">shame</face>
 			<position target="mary">little_r</position>
 		</command>
@@ -81,8 +81,8 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">材料は  油揚げ １枚，こんにゃく １/４袋，里芋 中２個，えのき １/４袋，お好みのみそ 大さじ２くらい(お好みの量)，お好みのだし(かつおぶしでも顆粒だしでも) 適量  です</line>
-			<balloon target="bob">材料は  油揚げ １枚，こんにゃく １/４袋，里芋 中２個，えのき １/４袋，お好みのみそ 大さじ２くらい(お好みの量)，お好みのだし(かつおぶしでも顆粒だしでも) 適量  です</balloon>
+			<line target="bob">材料は，■ パン生地， 強力粉  200g，薄力粉 50g，卵(全卵)Mサイズ 1個(50～60g），砂糖 50g，塩 3g，ドライイースト 3g，バターorマーガリン 40g，牛乳 90㏄(80㏄）卵と合わせて140g， ■ ドリュール， 卵黄  1個，牛乳 小さじ1，マーガリン  少々(2g程度）， ■ チョコクリーム(チョコフラワーペースト)， チョコ(クーベルダークチョコ 100g，砂糖 90g，マーガリン  20g，牛乳 200㏄，米粉  40g  です</line>
+			<balloon target="bob">材料は，■ パン生地， 強力粉  200g，薄力粉 50g，卵(全卵)Mサイズ 1個(50～60g），砂糖 50g，塩 3g，ドライイースト 3g，バターorマーガリン 40g，牛乳 90㏄(80㏄）卵と合わせて140g， ■ ドリュール， 卵黄  1個，牛乳 小さじ1，マーガリン  少々(2g程度）， ■ チョコクリーム(チョコフラワーペースト)， チョコ(クーベルダークチョコ 100g，砂糖 90g，マーガリン  20g，牛乳 200㏄，米粉  40g  です</balloon>
 			<face target="bob">idyllic</face>
 			<position target="bob">little_l</position>
 		</command>
@@ -90,11 +90,11 @@
 			<line target="mary">長いなー</line>
 			<balloon target="mary">長いなー</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
-			<line target="bob">えーと，まず，油揚げ１枚を作ります</line>
-			<balloon target="bob">えーと，まず，油揚げ１枚を作ります</balloon>
+			<line target="bob">えーと，まず，を作ります</line>
+			<balloon target="bob">えーと，まず，を作ります</balloon>
 			<face target="bob">idyllic</face>
 			<position target="bob">audience</position>
 		</command>
@@ -108,13 +108,13 @@
 			<line target="bob">5年くらいかかりますわ</line>
 			<balloon target="bob">5年くらいかかりますわ</balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_r</position>
+			<position target="bob">little_l</position>
 		</command>
 		<command>
 			<line target="mary">生産者になりたいわけじゃないねん</line>
 			<balloon target="mary">生産者になりたいわけじゃないねん</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="mary">料理の手順を教えてくれよ</line>
@@ -123,8 +123,8 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">まず，たぬき汁（たぬきじる）とは、精進料理の一種でコンニャクを入れた味噌汁</line>
-			<balloon target="bob">まず，たぬき汁（たぬきじる）とは、精進料理の一種でコンニャクを入れた味噌汁</balloon>
+			<line target="bob">まず，コロネは、日本で開発された菓子パンの一種である</line>
+			<balloon target="bob">まず，コロネは、日本で開発された菓子パンの一種である</balloon>
 			<face target="bob">idyllic</face>
 			<position target="bob">audience</position>
 		</command>
@@ -132,13 +132,13 @@
 			<line target="mary">ちょっとまって、その情報のソースは</line>
 			<balloon target="mary">ちょっとまって、その情報のソースは？</balloon>
 			<face target="mary">disagreeable</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
-			<line target="bob">https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%AC%E3%81%8D%E6%B1%81</line>
-			<balloon target="bob">https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%AC%E3%81%8D%E6%B1%81</balloon>
+			<line target="bob">https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%AD%E3%83%8D</line>
+			<balloon target="bob">https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%AD%E3%83%8D</balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_l</position>
+			<position target="bob">little_r</position>
 		</command>
 		<command>
 			<line target="mary">いや、urlじゃわからんのよ。今見ているじょうほうげんを聞いとるねん</line>
@@ -156,7 +156,7 @@
 			<line target="mary">嘘情報も多いし，大先生ではないんよ</line>
 			<balloon target="mary">嘘情報も多いし，大先生ではないんよ</balloon>
 			<face target="mary">disagreeable</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
 			<line target="mary">もうええわ、レシピの手順、最初から、よめ</line>
@@ -165,26 +165,26 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">1こんにゃくは食べやすい大きさに切りさっと熱湯をかけておく。</line>
-			<balloon target="bob">1こんにゃくは食べやすい大きさに切りさっと熱湯をかけておく。</balloon>
+			<line target="bob">☆コロネ型を作ります。A4 のコピー用紙を4等分に切ります。</line>
+			<balloon target="bob">☆コロネ型を作ります。A4 のコピー用紙を4等分に切ります。</balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_l</position>
+			<position target="bob">little_r</position>
 		</command>
 		<command>
 			<line target="mary">ふむふむ、次は</line>
 			<balloon target="mary">ふむふむ、次は</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
-			<line target="bob">2油揚げは細切り、里芋は半月切り、えのきは２センチくらいの長さに切る。</line>
-			<balloon target="bob">2油揚げは細切り、里芋は半月切り、えのきは２センチくらいの長さに切る。</balloon>
+			<line target="bob">切ったら長辺の真ん中あたりに印をつけて、そこから巻いていきます。</line>
+			<balloon target="bob">切ったら長辺の真ん中あたりに印をつけて、そこから巻いていきます。</balloon>
 			<face target="bob">idyllic</face>
 			<position target="bob">audience</position>
 		</command>
 		<command>
-			<line target="mary">おいおい、懐かしい給食の味！たぬき汁☆に懐かしい給食の味！たぬき汁☆は入れんやろ</line>
-			<balloon target="mary">おいおい、懐かしい給食の味！たぬき汁☆に懐かしい給食の味！たぬき汁☆は入れんやろ</balloon>
+			<line target="mary">おいおい、チョコクリーム、型も手作り、チョココロネにチョコクリーム、型も手作り、チョココロネは入れんやろ</line>
+			<balloon target="mary">おいおい、チョコクリーム、型も手作り、チョココロネにチョコクリーム、型も手作り、チョココロネは入れんやろ</balloon>
 			<face target="mary">idyllic</face>
 			<position target="mary">audience</position>
 		</command>
@@ -198,7 +198,7 @@
 			<line target="mary">ちゃんと説明もできへんのかいな，最近の人工知能は衰えたなー</line>
 			<balloon target="mary">ちゃんと説明もできへんのかいな，最近の人工知能は衰えたなー</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
 			<line target="bob">ちなみに，あいちゃんが好きな食べ物は何?</line>
@@ -216,11 +216,11 @@
 			<line target="bob">ゴンザレスが調べたるわ</line>
 			<balloon target="bob">ゴンザレスが調べたるわ</balloon>
 			<face target="bob">happy</face>
-			<position target="bob">little_l</position>
+			<position target="bob">little_r</position>
 		</command>
 		<command>
-			<line target="bob">本日のオヌヌメ料理は我が家のおせち＠海老のうま煮です</line>
-			<balloon target="bob">本日のオヌヌメ料理は我が家のおせち＠海老のうま煮です</balloon>
+			<line target="bob">本日のオヌヌメ料理は味が染みてる～♪手羽元と大根の煮込みです</line>
+			<balloon target="bob">本日のオヌヌメ料理は味が染みてる～♪手羽元と大根の煮込みです</balloon>
 			<face target="bob">happy</face>
 			<position target="bob">audience</position>
 		</command>
@@ -231,8 +231,8 @@
 			<position target="mary">little_r</position>
 		</command>
 		<command>
-			<line target="bob">えーと，まずはおせち料理用に作りました。【おせちの由来 ・ 海老】海老は長いヒゲと腰から曲がる姿を長寿の老人に見たて、腰が曲がるまで元気いるようにと長寿を願う縁起もの。紅白の色もめでたい。</line>
-			<balloon target="bob">えーと，まずはおせち料理用に作りました。【おせちの由来 ・ 海老】海老は長いヒゲと腰から曲がる姿を長寿の老人に見たて、腰が曲がるまで元気いるようにと長寿を願う縁起もの。紅白の色もめでたい。</balloon>
+			<line target="bob">えーと，まずはいつも作っている牛肉と大根の煮物（レシピID : 1306690）の手羽元バージョンを作ってみました☺牛肉よりもさっぱりしています☆</line>
+			<balloon target="bob">えーと，まずはいつも作っている牛肉と大根の煮物（レシピID : 1306690）の手羽元バージョンを作ってみました☺牛肉よりもさっぱりしています☆</balloon>
 			<face target="bob">happy</face>
 			<position target="bob">little_r</position>
 		</command>
@@ -252,13 +252,13 @@
 			<line target="mary">開き直るなや、料理の作り方を読めや</line>
 			<balloon target="mary">開き直るなや、料理の作り方を読めや</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
-			<line target="bob">ういー、えーっと手頃な赤エビを使ってますが、車海老の方が見た目も味も良いです。尻尾の先を切り揃えると、より丁寧に仕上がります。</line>
-			<balloon target="bob">ういー、えーっと手頃な赤エビを使ってますが、車海老の方が見た目も味も良いです。尻尾の先を切り揃えると、より丁寧に仕上がります。</balloon>
+			<line target="bob">ういー、えーっと大根は下茹でをすると味が良く染み込みます♪鶏のお出汁だけでも美味しいので、出汁の素なしでも美味しいです☆その場合、最後に味見をして薄ければ、醤油を少々足して下さい。</line>
+			<balloon target="bob">ういー、えーっと大根は下茹でをすると味が良く染み込みます♪鶏のお出汁だけでも美味しいので、出汁の素なしでも美味しいです☆その場合、最後に味見をして薄ければ、醤油を少々足して下さい。</balloon>
 			<face target="bob">happy</face>
-			<position target="bob">little_r</position>
+			<position target="bob">little_l</position>
 		</command>
 		<command>
 			<line target="mary">それって、料理ののコツですよね</line>
@@ -276,11 +276,11 @@
 			<line target="mary">ほな、続きよめや、ポンコツ</line>
 			<balloon target="mary">ほな、続きよめや、ポンコツ</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
-			<line target="bob">1海老は殻の間から楊枝を差し込み、背ワタをそっと引き抜く。</line>
-			<balloon target="bob">1海老は殻の間から楊枝を差し込み、背ワタをそっと引き抜く。</balloon>
+			<line target="bob">大根は一口大にカットし、竹串が通るくらいまで下ゆでします。大根の葉は小口切りにしておきます。</line>
+			<balloon target="bob">大根は一口大にカットし、竹串が通るくらいまで下ゆでします。大根の葉は小口切りにしておきます。</balloon>
 			<face target="bob">happy</face>
 			<position target="bob">little_l</position>
 		</command>
@@ -291,8 +291,8 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">2硬い口先・長いヒゲ・足をハサミで切り取る。（胴体部分の足は残しても○）</line>
-			<balloon target="bob">2硬い口先・長いヒゲ・足をハサミで切り取る。（胴体部分の足は残しても○）</balloon>
+			<line target="bob">手羽元に塩、片栗粉をまぶし、深めのフライパンで色が変わる程度に焼きます。（お鍋でもOK）</line>
+			<balloon target="bob">手羽元に塩、片栗粉をまぶし、深めのフライパンで色が変わる程度に焼きます。（お鍋でもOK）</balloon>
 			<face target="bob">happy</face>
 			<position target="bob">audience</position>
 		</command>
@@ -300,13 +300,13 @@
 			<line target="mary">次、次----</line>
 			<balloon target="mary">次、次----</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
-			<line target="bob">3仕上がりが「つ」の字になるよう海老の背を曲げ、楊枝でる。</line>
-			<balloon target="bob">3仕上がりが「つ」の字になるよう海老の背を曲げ、楊枝でる。</balloon>
+			<line target="bob">2に大根と●を加え時々混ぜを入れてふたをして弱め、火で10分からを入れ分くらい煮ますの</line>
+			<balloon target="bob">2に大根と●を加え時々混ぜを入れてふたをして弱め、火で10分からを入れ分くらい煮ますの</balloon>
 			<face target="bob">happy</face>
-			<position target="bob">little_r</position>
+			<position target="bob">little_l</position>
 		</command>
 		<command>
 			<line target="mary">なんでやんん，それはおかしいやろ</line>
@@ -315,8 +315,8 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">おっと，読み間違えたわ3仕上がりが「つ」の字になるよう海老の背を曲げ、楊枝で留める。やったわ</line>
-			<balloon target="bob">おっと，読み間違えたわ3仕上がりが「つ」の字になるよう海老の背を曲げ、楊枝で留める。やったわ</balloon>
+			<line target="bob">おっと，読み間違えたわ2に大根と●を加え時々混ぜながらふたをして弱めの中火で10分から15分くらい煮ます。やったわ</line>
+			<balloon target="bob">おっと，読み間違えたわ2に大根と●を加え時々混ぜながらふたをして弱めの中火で10分から15分くらい煮ます。やったわ</balloon>
 			<face target="bob">happy</face>
 			<position target="bob">audience</position>
 		</command>
@@ -324,7 +324,7 @@
 			<line target="mary">いい加減にしろよ、ぽつこん</line>
 			<balloon target="mary">いい加減にしろよ、ぽつこん</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
 			<line target="mary">もうええわ、作り方なんもわからんから最後に簡単に説明してや</line>
@@ -333,16 +333,16 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">「赤」を強調するために薄口＆濃口醤油で仕上げています。関東人には濃口醤油入りの方が口に合うかも！？や、どうや</line>
-			<balloon target="bob">「赤」を強調するために薄口＆濃口醤油で仕上げています。関東人には濃口醤油入りの方が口に合うかも！？や、どうや</balloon>
+			<line target="bob">☆164個目の話題入り、ピックアップ感謝☆旬の大根を使っていかがですか？☺鶏肉のお出汁が大根に染み込んでうま～❤や、どうや</line>
+			<balloon target="bob">☆164個目の話題入り、ピックアップ感謝☆旬の大根を使っていかがですか？☺鶏肉のお出汁が大根に染み込んでうま～❤や、どうや</balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_l</position>
+			<position target="bob">little_r</position>
 		</command>
 		<command>
 			<line target="mary">思っていたより上手やな</line>
 			<balloon target="mary">思っていたより上手やな</balloon>
 			<face target="mary">disagreeable</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="mary">でも，それなんかキャッチコピーみたいやん、なんかもうつかれたわ　どうもありがとうございました。</line>
