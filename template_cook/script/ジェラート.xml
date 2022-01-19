@@ -21,14 +21,14 @@
 			<position target="bob">audience</position>
 		</command>
 		<command>
-			<line target="mary">ゴン太はすきなわしょくのこんだてってあるか？</line>
+			<line target="mary">ゴンタはすきなわしょくのこんだてってあるか？</line>
 			<balloon target="mary">ゴンタは好きな和食の献立ってあるか？</balloon>
 			<face target="mary">pleasant</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
-			<line target="bob">とうぜんながらバッテリーです。あ、わしょくだからなまりちくでんちか。</line>
-			<balloon target="bob">当然ながらバッテリーです。あ、和食だから鉛蓄電池か。</balloon>
+			<line target="bob">とうぜんながらバッテリーです。</line>
+			<balloon target="bob">当然ながらバッテリーです。</balloon>
 			<face target="bob">sad</face>
 			<position target="bob">little_l</position>
 		</command>
@@ -51,14 +51,14 @@
 			<position target="mary">little_l</position>
 		</command>
 		<command>
-			<line target="bob">豚足です。</line>
-			<balloon target="bob">豚足です。</balloon>
-			<face target="bob">like</face>
-			<position target="bob">little_l</position>
+			<line target="bob">ジェラートです。</line>
+			<balloon target="bob">ジェラートです。</balloon>
+			<face target="bob">neutral</face>
+			<position target="bob">little_r</position>
 		</command>
 		<command>
-			<line target="bob">豚足はママのあじー</line>
-			<balloon target="bob">豚足はママのあじー</balloon>
+			<line target="bob">ジェラートはママのあじー</line>
+			<balloon target="bob">ジェラートはママのあじー</balloon>
 			<face target="bob">happy</face>
 			<position target="bob">audience</position>
 		</command>
@@ -75,8 +75,8 @@
 			<position target="bob">little_r</position>
 		</command>
 		<command>
-			<line target="mary">ところで、豚足ってどうやって作るか知ってるか？</line>
-			<balloon target="mary">ところで、豚足ってどうやって作るか知ってるか？</balloon>
+			<line target="mary">ところで、ジェラートってどうやって作るか知ってるか？</line>
+			<balloon target="mary">ところで、ジェラートってどうやって作るか知ってるか？</balloon>
 			<face target="mary">idyllic</face>
 			<position target="mary">little_r</position>
 		</command>
@@ -93,10 +93,10 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">材料は， ， 豚足 3本，水 1.2リットル，塩 大さじ1，酒 150ml，ニンニク・生姜 5粒位，鶏がらスープの素 大さじ1， ■ ーー臭みとりーー， ネギの青い所 1本分，玉ねぎ 半玉，ブラックペッパーホール 小さじ2位，ニンニク・生姜 5粒ずつ位，りんごジュース 100ml，酒 100ml，水 被るくらい  です。</line>
-			<balloon target="bob">材料は， ， 豚足 3本，水 1.2リットル，塩 大さじ1，酒 150ml，ニンニク・生姜 5粒位，鶏がらスープの素 大さじ1， ■ ーー臭みとりーー， ネギの青い所 1本分，玉ねぎ 半玉，ブラックペッパーホール 小さじ2位，ニンニク・生姜 5粒ずつ位，りんごジュース 100ml，酒 100ml，水 被るくらい  です。</balloon>
+			<line target="bob">材料は  牛乳 700cc，グラニュー糖(甘さはお好みで)  40〜60g，生クリーム  180cc，塩(ヒマラヤ岩塩使用) 3g  です。</line>
+			<balloon target="bob">材料は  牛乳 700cc，グラニュー糖(甘さはお好みで)  40〜60g，生クリーム  180cc，塩(ヒマラヤ岩塩使用) 3g  です。</balloon>
 			<face target="bob">idyllic</face>
-			<position target="bob">little_r</position>
+			<position target="bob">little_l</position>
 		</command>
 		<command>
 			<line target="mary">長いなー</line>
@@ -111,8 +111,8 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">えーと、まずは、を作ります。</line>
-			<balloon target="bob">えーと、まずは、を作ります。</balloon>
+			<line target="bob">えーと、まずは、牛乳700ccを作ります。</line>
+			<balloon target="bob">えーと、まずは、牛乳700ccを作ります。</balloon>
 			<face target="bob">neutral</face>
 			<position target="bob">audience</position>
 		</command>
@@ -126,7 +126,7 @@
 			<line target="bob">5年くらいかかりますわ。</line>
 			<balloon target="bob">5年くらいかかりますわ。</balloon>
 			<face target="bob">neutral</face>
-			<position target="bob">little_l</position>
+			<position target="bob">little_r</position>
 		</command>
 		<command>
 			<line target="mary">おいおい、生産者になりたいわけじゃないねん。</line>
@@ -135,10 +135,10 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="mary">豚足の作り方を教えてくれよ。</line>
-			<balloon target="mary">豚足の作り方を教えてくれよ。</balloon>
+			<line target="mary">ジェラートの作り方を説明してくれよ。</line>
+			<balloon target="mary">ジェラートの作り方を説明してくれよ。</balloon>
 			<face target="mary">anger</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="bob">御意</line>
@@ -147,8 +147,8 @@
 			<position target="bob">audience</position>
 		</command>
 		<command>
-			<line target="bob">えーと、豚足（とんそく）とは、食用とされる豚肉の部位で、通常は趾骨周囲の部分を指す</line>
-			<balloon target="bob">えーと、豚足（とんそく）とは、食用とされる豚肉の部位で、通常は趾骨周囲の部分を指す</balloon>
+			<line target="bob">えーと、ジェラート（gelato）は、イタリア語で「凍った」という意味を持つ氷菓</line>
+			<balloon target="bob">えーと、ジェラート（gelato）は、イタリア語で「凍った」という意味を持つ氷菓</balloon>
 			<face target="bob">neutral</face>
 			<position target="bob">little_l</position>
 		</command>
@@ -159,10 +159,10 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="mary">作り方じゃなくて豚足の説明やん。</line>
-			<balloon target="mary">作り方じゃなくて豚足の説明やん。</balloon>
+			<line target="mary">作り方じゃなくてジェラートの説明やん。</line>
+			<balloon target="mary">作り方じゃなくてジェラートの説明やん。</balloon>
 			<face target="mary">surprise</face>
-			<position target="mary">little_r</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
 			<line target="mary">その情報のソースはどこから持ってきたんや？</line>
@@ -171,8 +171,8 @@
 			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">https://ja.wikipedia.org/wiki/%E8%B1%9A%E8%B6%B3</line>
-			<balloon target="bob">https://ja.wikipedia.org/wiki/%E8%B1%9A%E8%B6%B3</balloon>
+			<line target="bob">https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%A9%E3%83%BC%E3%83%88</line>
+			<balloon target="bob">https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%A9%E3%83%BC%E3%83%88</balloon>
 			<face target="bob">pleasant</face>
 			<position target="bob">audience</position>
 		</command>
@@ -180,13 +180,19 @@
 			<line target="mary">いや、urlじゃわからんのよ。</line>
 			<balloon target="mary">いや、urlじゃわからんのよ。</balloon>
 			<face target="mary">angry</face>
-			<position target="mary">little_l</position>
+			<position target="mary">little_r</position>
+		</command>
+		<command>
+			<line target="mary">しかも、顔隠れとるやん。</line>
+			<balloon target="mary">しかも、顔隠れとるやん。</balloon>
+			<face target="mary">angry</face>
+			<position target="mary">audience</position>
 		</command>
 		<command>
 			<line target="mary">今見ているじょうほうげんを聞いとるねん。</line>
 			<balloon target="mary">今見ている情報源を聞いとるねん。</balloon>
 			<face target="mary">angry</face>
-			<position target="mary">audience</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="bob">我らが大先生、wikipediaに決まってマッスル!</line>
@@ -198,13 +204,13 @@
 			<line target="mary">嘘情報も多いし、大先生ではないんよ。</line>
 			<balloon target="mary">嘘情報も多いし、大先生ではないんよ。</balloon>
 			<face target="mary">disagreeable</face>
-			<position target="mary">little_l</position>
+			<position target="mary">audience</position>
 		</command>
 		<command>
 			<line target="mary">もうええわ、レシピの手順、最初から読んでくれ</line>
-			<balloon target="mary">もうええわ、レシピ手順、最初から読んでくれ</balloon>
+			<balloon target="mary">もうええわ、レシピの手順、最初から読んでくれ</balloon>
 			<face target="mary">anger</face>
-			<position target="mary">audience</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
 			<line target="bob">御意</line>
@@ -213,8 +219,8 @@
 			<position target="bob">audience</position>
 		</command>
 		<command>
-			<line target="bob">30分程臭みとり用の材料を入れ火にかけるか時間がなければ何度か茹でこぼす</line>
-			<balloon target="bob">30分程臭みとり用の材料を入れ火にかけるか時間がなければ何度か茹でこぼす</balloon>
+			<line target="bob">琺瑯や圧力鍋など火の通りがいいお鍋に牛乳とグラニュー糖を入れ、中火にかけつつ木べらで混ぜ続けます</line>
+			<balloon target="bob">琺瑯や圧力鍋など火の通りがいいお鍋に牛乳とグラニュー糖を入れ、中火にかけつつ木べらで混ぜ続けます</balloon>
 			<face target="bob">neutral</face>
 			<position target="bob">little_l</position>
 		</command>
@@ -222,11 +228,11 @@
 			<line target="mary">ふむふむ、次は？</line>
 			<balloon target="mary">ふむふむ、次は？</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_l</position>
+			<position target="mary">audience</position>
 		</command>
 		<command>
-			<line target="bob">豚足は剃刀で毛を剃ってコンロの火で焼き切り再度残ってる毛があれば更に剃る</line>
-			<balloon target="bob">豚足は剃刀で毛を剃ってコンロの火で焼き切り再度残ってる毛があれば更に剃る</balloon>
+			<line target="bob">かさが半分になると、とろっとして少し牛乳が温かい色味になります(しっかり煮詰めないとシャリシャリのミルクアイスに…)</line>
+			<balloon target="bob">かさが半分になると、とろっとして少し牛乳が温かい色味になります(しっかり煮詰めないとシャリシャリのミルクアイスに…)</balloon>
 			<face target="bob">neutral</face>
 			<position target="bob">audience</position>
 		</command>
@@ -234,19 +240,19 @@
 			<line target="mary">なるほど、ほんで？</line>
 			<balloon target="mary">なるほど、ほんで？</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">audience</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
-			<line target="bob">『圧』力鍋に好きな味付けの調味料を入れ『圧』がかかったら中強火で50分『圧』を抜いたら完成</line>
-			<balloon target="bob">『圧』力鍋に好きな味付けの調味料を入れ『圧』がかかったら中強火で50分『圧』を抜いたら完成</balloon>
+			<line target="bob">かさが半分になったら生クリームとお塩を加えて強めの『弱火』でひと煮立ちさせます</line>
+			<balloon target="bob">かさが半分になったら生クリームとお塩を加えて強めの『弱火』でひと煮立ちさせます</balloon>
 			<face target="bob">neutral</face>
 			<position target="bob">little_r</position>
 		</command>
 		<command>
-			<line target="mary">おいおい、圧じゃなくて内圧やろ</line>
-			<balloon target="mary">おいおい、圧じゃなくて内圧やろ</balloon>
+			<line target="mary">おいおい、弱火じゃなくて熱湯やろ</line>
+			<balloon target="mary">おいおい、弱火じゃなくて熱湯やろ</balloon>
 			<face target="mary">anger</face>
-			<position target="mary">little_l</position>
+			<position target="mary">audience</position>
 		</command>
 		<command>
 			<line target="bob">お、うっかりしてもう太郎</line>
@@ -258,7 +264,7 @@
 			<line target="mary">ちゃんと説明もできへんのかいな、最近の人工知能は衰えたなー</line>
 			<balloon target="mary">ちゃんと説明もできへんのかいな、最近の人工知能は衰えたなー</balloon>
 			<face target="mary">sad</face>
-			<position target="mary">audience</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="bob">ちなみに、あいちゃんが好きな食べ物は何？</line>
@@ -270,13 +276,13 @@
 			<line target="mary">そうやなー、特にないなー。</line>
 			<balloon target="mary">そうやなー、特にないなー。</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_l</position>
+			<position target="mary">audience</position>
 		</command>
 		<command>
 			<line target="mary">本日のおすすめの料理はなんや？</line>
 			<balloon target="mary">本日のおすすめの料理はなんや？</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">audience</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="bob">ゴンザレスが調べたるわ。</line>
@@ -288,19 +294,19 @@
 			<line target="bob">本日のオヌヌメ料理は大根と豚肉のみそ炒めです!</line>
 			<balloon target="bob">本日のオヌヌメ料理は大根と豚肉のみそ炒めです!</balloon>
 			<face target="bob">happy</face>
-			<position target="bob">little_l</position>
+			<position target="bob">little_r</position>
 		</command>
 		<command>
 			<line target="mary">美味しそうやなー</line>
 			<balloon target="mary">美味しそうやなー</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_r</position>
+			<position target="mary">audience</position>
 		</command>
 		<command>
 			<line target="mary">作り方は？</line>
 			<balloon target="mary">作り方は？</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">audience</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="bob">えーと，まずは炒めるのに全く油を使わず、豚バラ肉の脂だけで炒めます。豚バラ肉から大量の脂が出てくるので、途中キッチンペーパーで脂を拭き取ります。</line>
@@ -312,31 +318,31 @@
 			<line target="bob">完成です。</line>
 			<balloon target="bob">完成です。</balloon>
 			<face target="bob">happy</face>
-			<position target="bob">little_r</position>
+			<position target="bob">little_l</position>
 		</command>
 		<command>
 			<line target="mary">そんな簡単に作れるわけないやろ。</line>
 			<balloon target="mary">そんな簡単に作れるわけないやろ。</balloon>
 			<face target="mary">anger</face>
-			<position target="mary">little_l</position>
+			<position target="mary">audience</position>
 		</command>
 		<command>
 			<line target="mary">アドバイスはええから、ちゃんとよめや、ポンコツ太郎!</line>
 			<balloon target="mary">アドバイスはええから、ちゃんとよめや、ポンコツ太郎!</balloon>
 			<face target="mary">anger</face>
-			<position target="mary">audience</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="bob">失礼、大根は厚めに皮をむき、厚さ1センチの半月切り。豚肉は大きめの一口大、万能ネギは小口切りにする。</line>
 			<balloon target="bob">失礼、大根は厚めに皮をむき、厚さ1センチの半月切り。豚肉は大きめの一口大、万能ネギは小口切りにする。</balloon>
-			<face target="bob">haugthy</face>
+			<face target="bob">neutral</face>
 			<position target="bob">audience</position>
 		</command>
 		<command>
 			<line target="mary">ほんで？</line>
 			<balloon target="mary">ほんで？</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">little_r</position>
+			<position target="mary">audience</position>
 		</command>
 		<command>
 			<line target="bob">フライパンに豚肉を広げて並べ、中火にかける。豚肉から脂が出てきたら、色が変わるまで炒める。</line>
@@ -348,29 +354,29 @@
 			<line target="mary">ふむふむ、次は？</line>
 			<balloon target="mary">ふむふむ、次は？</balloon>
 			<face target="mary">idyllic</face>
-			<position target="mary">audience</position>
-		</command>
-		<command>
-			<line target="bob">フライパンの水分を拭き取り油大根を入れて炒バター合わせる。</line>
-			<balloon target="bob">フライパンの水分を拭き取り油大根を入れて炒バター合わせる。</balloon>
-			<face target="bob">haugthy</face>
-			<position target="bob">audience</position>
-		</command>
-		<command>
-			<line target="mary">なんでやねん、それはおかしいやろ。</line>
-			<balloon target="mary">何でやねん、それはおかしいやろ。</balloon>
-			<face target="mary">anger</face>
 			<position target="mary">little_l</position>
 		</command>
 		<command>
-			<line target="bob">おっと，読み間違えたわんこ</line>
-			<balloon target="bob">おっと，読み間違えたわんこ</balloon>
+			<line target="bob">『フライパンの水分を拭油取り、バター根を入れて中身め合わせるアルコール』</line>
+			<balloon target="bob">『フライパンの水分を拭油取り、バター根を入れて中身め合わせるアルコール』</balloon>
+			<face target="bob">neutral</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">何言ってるねん、頭おかしなったか。</line>
+			<balloon target="mary">何言ってるねん、頭おかしなったか。</balloon>
+			<face target="mary">anger</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="bob">おっと，読み間違えたわわわわ</line>
+			<balloon target="bob">おっと，読み間違えたわわわわ</balloon>
 			<face target="bob">surprise</face>
 			<position target="bob">little_r</position>
 		</command>
 		<command>
-			<line target="bob">フライパンの脂を拭き取り、大根を入れて炒め合わせる。、やったわ</line>
-			<balloon target="bob">フライパンの脂を拭き取り、大根を入れて炒め合わせる。、やったわ</balloon>
+			<line target="bob">正しくは『フライパンの脂を拭き取り、大根を入れて炒め合わせる。』、でした。</line>
+			<balloon target="bob">正しくは『フライパンの脂を拭き取り、大根を入れて炒め合わせる。』、でした。</balloon>
 			<face target="bob">happy</face>
 			<position target="bob">audience</position>
 		</command>
@@ -378,25 +384,25 @@
 			<line target="mary">いい加減にしろよ</line>
 			<balloon target="mary">いい加減にしろよ</balloon>
 			<face target="mary">anger</face>
-			<position target="mary">audience</position>
+			<position target="mary">little_l</position>
 		</command>
 		<command>
 			<line target="mary">ペッパー君の方が優秀やぞ</line>
 			<balloon target="mary">ペッパー君の方が優秀やぞ</balloon>
 			<face target="mary">anger</face>
-			<position target="mary">little_r</position>
+			<position target="mary">audience</position>
 		</command>
 		<command>
 			<line target="bob">おい、ペッパーよりは優秀や</line>
 			<balloon target="bob">おい、ペッパーよりは優秀や</balloon>
 			<face target="bob">anger</face>
-			<position target="bob">little_r</position>
+			<position target="bob">little_l</position>
 		</command>
 		<command>
 			<line target="mary">もうええわ</line>
 			<balloon target="mary">もうええわ</balloon>
 			<face target="mary">anger</face>
-			<position target="mary">audience</position>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="bob">最後に挽回するチャンスをください。</line>
@@ -405,10 +411,10 @@
 			<position target="bob">audience</position>
 		</command>
 		<command>
-			<line target="mary">ペッパー君より優秀なら、大根と豚肉のみそ炒めの作り方を簡単に要約してや</line>
+			<line target="mary">ペッパー君、より優秀なら、大根と豚肉のみそ炒めの作り方を簡単に要約してや</line>
 			<balloon target="mary">ペッパー君より優秀なら、大根と豚肉のみそ炒めの作り方を簡単に要約してや</balloon>
 			<face target="mary">pity</face>
-			<position target="mary">little_r</position>
+			<position target="mary">audience</position>
 		</command>
 		<command>
 			<line target="bob">朝飯前や</line>
@@ -425,14 +431,14 @@
 		<command>
 			<line target="mary">もうええわ、どうもありがとうございました。</line>
 			<balloon target="mary">もうええわ、どうもありがとうございました。</balloon>
-			<face target="mary">relief</face>
-			<position target="mary">audience</position>
+			<face target="mary">neutral</face>
+			<position target="mary">little_r</position>
 		</command>
 		<command>
 			<line target="bob">どうも、グノーシスしゅぎしゃ、ゴンザレスいや。</line>
 			<balloon target="bob">どうも、グノーシス主義者、ゴンザレスいや。</balloon>
 			<face target="bob">happy</face>
-			<position target="bob">little_r</position>
+			<position target="bob">little_l</position>
 		</command>
 		<command>
 			<line target="bob">ごんたでした。</line>

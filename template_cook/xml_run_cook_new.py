@@ -92,14 +92,14 @@ make("bob", {
 })
 
 make("mary", {
-    "line": "ゴン太はすきなわしょくのこんだてってあるか？",
+    "line": "ゴンタはすきなわしょくのこんだてってあるか？",
     "balloon": "ゴンタは好きな和食の献立ってあるか？",
     "face": "pleasant"
 })
 
 make("bob", {
-    "line": "とうぜんながらバッテリーです。あ、わしょくだからなまりちくでんちか。",
-    "balloon": "当然ながらバッテリーです。あ、和食だから鉛蓄電池か。",
+    "line": "とうぜんながらバッテリーです。",
+    "balloon": "当然ながらバッテリーです。",
     "face": "sad"
 })
 
@@ -124,7 +124,7 @@ make("mary", {
 make("bob", {
     "line": cook_word+"です。",
     "balloon": cook_word+"です。",
-    "face": "like"
+    "face": "neutral"
 })
 
 make("bob", {
@@ -209,8 +209,8 @@ make("mary", {
 })
 
 make("mary", {
-    "line": cook_word+"の作り方を教えてくれよ。",
-    "balloon": cook_word+"の作り方を教えてくれよ。",
+    "line": cook_word+"の作り方を説明してくれよ。",
+    "balloon": cook_word+"の作り方を説明してくれよ。",
     "face": "anger"
 })
 make("bob", {
@@ -256,6 +256,12 @@ make("mary", {
     })
 
 make("mary", {
+        "line": "しかも、顔隠れとるやん。",
+        "balloon": "しかも、顔隠れとるやん。",
+        "face": "angry"
+    })
+
+make("mary", {
         "line": "今見ているじょうほうげんを聞いとるねん。",
         "balloon": "今見ている情報源を聞いとるねん。",
         "face": "angry"
@@ -275,7 +281,7 @@ make("mary", {
 
 make("mary", {
     "line": "もうええわ、レシピの手順、最初から読んでくれ",
-    "balloon": "もうええわ、レシピ手順、最初から読んでくれ",
+    "balloon": "もうええわ、レシピの手順、最初から読んでくれ",
     "face": "anger"
 })
 
@@ -404,7 +410,7 @@ make("mary", {
 make("bob", {
     "line": "失礼、" + c_new[3][0][1:],
     "balloon": "失礼、" + c_new[3][0][1:],
-    "face": "haugthy"
+    "face": "neutral"
 })
 
 make("mary", {
@@ -426,26 +432,26 @@ make("mary", {
 })
 #ボケ2
 make("bob", {
-    "line": ""+text_ro.replace("▁", "")[1:],
-    "balloon": ""+text_ro.replace("▁", "")[1:],
-    "face": "haugthy"
+    "line": "『"+text_ro.replace("▁", "")[1:]+"』",
+    "balloon": "『"+text_ro.replace("▁", "")[1:]+"』",
+    "face": "neutral"
 })
 
 make("mary", {
-    "line": "なんでやねん、それはおかしいやろ。",
-    "balloon": "何でやねん、それはおかしいやろ。",
+    "line": "何言ってるねん、頭おかしなったか。",
+    "balloon": "何言ってるねん、頭おかしなったか。",
     "face": "anger"
 })
 
 make("bob", {
-    "line": "おっと，読み間違えたわんこ",
-    "balloon": "おっと，読み間違えたわんこ",
+    "line": "おっと，読み間違えたわわわわ",
+    "balloon": "おっと，読み間違えたわわわわ",
     "face": "surprise"
 })
 
 make("bob", {
-    "line": c_new[3][2][1:]+"、やったわ",
-    "balloon": c_new[3][2][1:]+"、やったわ",
+    "line": "正しくは『"+c_new[3][2][1:]+"』、でした。",
+    "balloon": "正しくは『"+c_new[3][2][1:]+"』、でした。",
     "face": "happy"
 })
 
@@ -484,7 +490,7 @@ make("bob", {
 
 make(
     "mary", {
-        "line": "ペッパー君より優秀なら、"+c_new[0]+"の作り方を簡単に要約してや",
+        "line": "ペッパー君、より優秀なら、"+c_new[0]+"の作り方を簡単に要約してや",
         "balloon": "ペッパー君より優秀なら、"+c_new[0]+"の作り方を簡単に要約してや",
         "face": "pity"
     })
@@ -506,7 +512,7 @@ make("bob", {
 make("mary", {
     "line": "もうええわ、どうもありがとうございました。",
     "balloon": "もうええわ、どうもありがとうございました。",
-    "face": "relief"
+    "face": "neutral"
 })
 
 make("bob", {
