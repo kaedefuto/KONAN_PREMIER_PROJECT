@@ -50,13 +50,13 @@ def w2v(text):
 
     text1=text.replace(word,"『"+word+"』")
     text2=text.replace(word,"『"+word2+"』")
-    return text1,text2
+    return text1,word,word2
 
 def main():
     text = "大根は一口大にカットし、竹串が通るくらいまで下ゆでします。大根の葉は小口切りにしておきます。"
-    text1,text2= w2v(text)
-    print(text)
-    print(text2)
+    #text1,text2= w2v(text)
+    #print(text)
+    #print(text2)
 
 
 if __name__ == "__main__":
