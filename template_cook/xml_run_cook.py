@@ -11,7 +11,7 @@ l= c[2].split(" ")
 print(l)
 
 # 出力ファイルパス
-OUTPUT_FILE_PATH = "./volume_test.xml"
+OUTPUT_FILE_PATH = "./script/volume_test.xml"
 
 
 # 初期化

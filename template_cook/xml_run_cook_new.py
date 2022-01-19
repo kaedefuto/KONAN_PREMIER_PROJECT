@@ -2,13 +2,21 @@ import convXML as MakeLine
 import cookpad_date
 import boke.Roberta as Ro
 import boke.wiki as wiki
+import boke.w2v_wakamiya as w2v
 import datetime
 import random
 
+import os
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 
+#今日の日付からスクレイピング
 dt_now = datetime.datetime.now()
 day=dt_now.strftime('%m%d')
+c_new,url_new= cookpad_date.html(day)
+c_old,url_old= cookpad_date.html(str(int(day)-1))
+#print(c_new)
 
+#料理名辞書からランダムに料理名を取得し，cookpadからスクレイピング
 day_old=str(int(day)-1)
 while(True):
     with open("./food/foodname.txt", "r", encoding="utf-8") as f:
@@ -21,23 +29,26 @@ while(True):
         except:
             continue
         #print(text.replace("\n",""))
+"""
+c_word2 = cookpad_date.html_word("天津飯")
+print(c_word[2].replace("   ","，"))
+c = ["タイトル", "要約", "材料", "手順(作り方)" ,"アドバイス", "歴史"]
+print(c_new[3][0])
+"""
 
-c_new,url_new= cookpad_date.html(day)
-c_old,url_old= cookpad_date.html(day_old)
-#print(c_new)
-#c_word2 = cookpad_date.html_word("天津飯")
-#print(c_word[2].replace("   ","，"))
-
-#c = ["タイトル", "要約", "材料", "手順(作り方)" ,"アドバイス", "歴史"]
-#print(c_new[3][0])
+#bertによるボケの生成
 text_ro, word_ro= Ro.roberta(c_new[3][2])
-print(c_new[3][2][1:])
-print(text_ro.replace("▁", "")[1:])
+#print(c_new[3][2][1:])
+#print(text_ro.replace("▁", "")[1:])
+
+#word2vecによるボケの生成
+#print(c_word[3][1][1:])
+text1, text2 = w2v.w2v(c_word[3][1][1:])
 
 
 
 # 出力ファイルパス
-OUTPUT_FILE_PATH = "./volume_test.xml"
+OUTPUT_FILE_PATH = "./script/volume_test.xml"
 
 
 # 初期化
@@ -124,27 +135,27 @@ make("mary", {
 #---------------------------------------------------------------
 #料理1
 make("mary", {
-    "line": "ところで、"+cook_word+"ってどうやって作るっけ",
-    "balloon": "ところで、"+cook_word+"ってどうやって作るっけ",
+    "line": "ところで、"+cook_word+"ってどうやって作るっけ？",
+    "balloon": "ところで、"+cook_word+"ってどうやって作るっけ？",
     "face": "shame"
 })
 
 make(
     "bob", {
-        "line": "楽勝や，人工知能で調べたるわ",
-        "balloon": "楽勝や，人工知能で調べたるわ",
+        "line": "楽勝や、人工知能で調べたるわ。",
+        "balloon": "楽勝や、人工知能で調べたるわ。",
         "face": "idyllic"
     })
 
 make("mary", {
-    "line": "さすがゴンザレス",
-    "balloon": "さすがゴンザレス",
+    "line": "さすがゴンザレス!",
+    "balloon": "さすがゴンザレス!",
     "face": "shame"
 })
 
 make("bob", {
-        "line": "材料は"+c_word[2].replace("   ","，")+"です",
-        "balloon": "材料は"+c_word[2].replace("   ","，")+"です",
+        "line": "材料は"+c_word[2].replace("   ","，")+"です。",
+        "balloon": "材料は"+c_word[2].replace("   ","，")+"です。",
         "face": "idyllic"
 })
 
@@ -156,44 +167,44 @@ make("mary", {
 
 
 make("bob", {
-    "line": "えーと，まず，"+c_word[2].replace("   ", "，").split("，")[0].replace(" ","")+"を作ります",
-    "balloon": "えーと，まず，"+c_word[2].replace("   ", "，").split("，")[0].replace(" ","")+"を作ります",
+    "line": "えーと、まずは、"+c_word[2].replace("   ", "，").split("，")[0].replace(" ","")+"を作ります。",
+    "balloon": "えーと、まずは、"+c_word[2].replace("   ", "，").split("，")[0].replace(" ","")+"を作ります。",
     "face": "idyllic"
 })
 
 make("mary", {
-    "line": "ちょっと待て，どんだけかかるねん",
-    "balloon": "ちょっと待て，どんだけかかるねん",
+    "line": "ちょっと待て、どんだけかかるねん。",
+    "balloon": "ちょっと待て、どんだけかかるねん。",
     "face": "idyllic"
 })
 
 make("bob", {
-    "line": "5年くらいかかりますわ",
-    "balloon": "5年くらいかかりますわ",
+    "line": "5年くらいかかりますわ。",
+    "balloon": "5年くらいかかりますわ。",
     "face": "idyllic"
 })
 
 make("mary", {
-    "line": "生産者になりたいわけじゃないねん",
-    "balloon": "生産者になりたいわけじゃないねん",
+    "line": "おいおい、生産者になりたいわけじゃないねん。",
+    "balloon": "おいおい、生産者になりたいわけじゃないねん。",
     "face": "idyllic"
 })
 
 make("mary", {
-    "line": "料理の手順を教えてくれよ",
-    "balloon": "料理の手順を教えてくれよ",
+    "line": "料理の手順を教えてくれよ。",
+    "balloon": "料理の手順を教えてくれよ。",
     "face": "idyllic"
 })
 try:
     make(
         "bob", {
-            "line": "まず，" + wiki.wiki_content(cook_word).split("。")[0] + "",
-            "balloon": "まず，" + wiki.wiki_content(cook_word).split("。")[0] + "",
+            "line": "まずは、" + wiki.wiki_content(cook_word).split("。")[0] + "",
+            "balloon": "まずは、" + wiki.wiki_content(cook_word).split("。")[0] + "",
             "face": "idyllic"
         })
 
     make("mary", {
-    "line": "ちょっとまって、その情報のソースは",
+    "line": "ちょっとまって、その情報のソースは？",
     "balloon": "ちょっとまって、その情報のソースは？",
     "face": "disagreeable"
     })
@@ -205,29 +216,29 @@ try:
     })
 
     make("mary", {
-        "line": "いや、urlじゃわからんのよ。今見ているじょうほうげんを聞いとるねん",
-        "balloon": "いや、urlじゃわからんのよ。今見ている情報源を聞いとるねん",
+        "line": "いや、urlじゃわからんのよ。今見ているじょうほうげんを聞いとるねん。",
+        "balloon": "いや、urlじゃわからんのよ。今見ている情報源を聞いとるねん。",
         "face": "angry"
     })
 
     make(
         "bob", {
-            "line": "我らが大先生、wikipediaに決まってます",
-            "balloon": "我らが大先生、wikipediaに決まってます",
+            "line": "我らが大先生、wikipediaに決まってます!",
+            "balloon": "我らが大先生、wikipediaに決まってます!",
             "face": "disagreeable"
         })
 
     make("mary", {
-        "line": "嘘情報も多いし，大先生ではないんよ",
-        "balloon": "嘘情報も多いし，大先生ではないんよ",
+        "line": "嘘情報も多いし、大先生ではないんよ。",
+        "balloon": "嘘情報も多いし、大先生ではないんよ。",
         "face": "disagreeable"
     })
 except:
 
     make(
         "bob", {
-            "line": "まず，" +c_old[5] + "",
-            "balloon": "まず，" + c_old[5]+ "",
+            "line": "まず、" +c_old[5] + "",
+            "balloon": "まず、" + c_old[5]+ "",
             "face": "idyllic"
         })
 
@@ -264,8 +275,8 @@ except:
     })
 
 make("mary", {
-    "line": "もうええわ、レシピの手順、最初から、よめ",
-    "balloon": "もうええわ、レシピ手順、最初から、よめ",
+    "line": "もうええわ、レシピの手順、最初から読んでくれ",
+    "balloon": "もうええわ、レシピ手順、最初から読んでくれ",
     "face": "idyllic"
 })
 
@@ -277,39 +288,39 @@ make(
     })
 
 make("mary", {
-    "line": "ふむふむ、次は",
-    "balloon": "ふむふむ、次は",
+    "line": "ふむふむ、次は？",
+    "balloon": "ふむふむ、次は？",
     "face": "idyllic"
 })
 
 make("bob", {
-    "line": ""+c_word[3][1][1:]+"",
-    "balloon": ""+c_word[3][1][1:]+"",
+    "line": ""+text1+"",
+    "balloon": ""+text1+"",
     "face": "idyllic"
 })
 #ぼけ1
 make("mary", {
-    "line": "おいおい、"+c_word[0]+"に"+c_word[0]+"は入れんやろ",
-    "balloon": "おいおい、"+c_word[0]+"に"+c_word[0]+"は入れんやろ",
+    "line": "おいおい、"+text1+"やろ",
+    "balloon": "おいおい、"+text2+"やろ",
     "face": "idyllic"
 })
 
 make("bob", {
-    "line": "",
-    "balloon": "",
+    "line": "お、うっかりしてもう太郎",
+    "balloon": "お、うっかりしてもう太郎",
     "face": "idyllic"
 })
 
 make("mary", {
-    "line": "ちゃんと説明もできへんのかいな，最近の人工知能は衰えたなー",
-    "balloon": "ちゃんと説明もできへんのかいな，最近の人工知能は衰えたなー",
+    "line": "ちゃんと説明もできへんのかいな、最近の人工知能は衰えたなー",
+    "balloon": "ちゃんと説明もできへんのかいな、最近の人工知能は衰えたなー",
     "face": "idyllic"
 })
 #-------------------------------------------------------------
 #料理2
 make("bob", {
-    "line": "ちなみに，あいちゃんが好きな食べ物は何?",
-    "balloon": "ちなみに，あいちゃんが好きな食べ物は何?",
+    "line": "ちなみに、あいちゃんが好きな食べ物は何？",
+    "balloon": "ちなみに、あいちゃんが好きな食べ物は何？",
     "face": "happy"
 })
 
@@ -320,80 +331,45 @@ make("mary", {
 })
 
 make("bob", {
-    "line": "ゴンザレスが調べたるわ",
-    "balloon": "ゴンザレスが調べたるわ",
+    "line": "ゴンザレスが調べたるわ。",
+    "balloon": "ゴンザレスが調べたるわ。",
     "face": "happy"
 })
 
 make("bob", {
-    "line": "本日のオヌヌメ料理は"+c_new[0]+"です",
-    "balloon": "本日のオヌヌメ料理は"+c_new[0]+"です",
+    "line": "本日のオヌヌメ料理は"+c_new[0]+"です!",
+    "balloon": "本日のオヌヌメ料理は"+c_new[0]+"です!",
     "face": "happy"
 })
 
 make("mary", {
-    "line": "美味しそうやなー，作り方は？",
-    "balloon": "美味しそうやなー，作り方は？",
+    "line": "美味しそうやなー、作り方は？",
+    "balloon": "美味しそうやなー、作り方は？",
     "face": "idyllic"
 })
 
 make("bob", {
-    "line": "えーと，まずは"+c_new[5],
-    "balloon": "えーと，まずは"+c_new[5],
+    "line": "えーと，まずは"+c_new[4]+"完成です。",
+    "balloon": "えーと，まずは"+c_new[4]+"完成です。",
     "face": "happy"
 })
 
-make("mary", {
-    "line": "それって、あなたの感想ですよね",
-    "balloon": "それって、あなたの感想ですよね",
-    "face": "idyllic"
-})
+make(
+    "mary", {
+        "line": "そんな簡単に作れるわけないやろ。アドバイスはええから、ちゃんとよめや、ポンコツ!",
+        "balloon": "そんな簡単に作れるわけないやろ。アドバイスはええから、ちゃんとよめや、ポンコツ!",
+        "face": "idyllic"
+    })
 
 make("bob", {
-    "line": "そうですけど、何か問題でもありますか",
-    "balloon": "そうですけど、何か問題でもありますか",
+    "line": "失礼、" + c_new[3][0][1:],
+    "balloon": "失礼、" + c_new[3][0][1:],
     "face": "happy"
 })
 
 make("mary", {
-    "line": "開き直るなや、料理の作り方を読めや",
-    "balloon": "開き直るなや、料理の作り方を読めや",
-    "face": "idyllic"
-})
-
-make("bob", {
-    "line": "ういー、えーっと"+c_new[4],
-    "balloon": "ういー、えーっと"+c_new[4],
-    "face": "happy"
-})
-
-make("mary", {
-    "line": "それって、料理ののコツですよね",
-    "balloon": "それって、料理のコツですよね",
-    "face": "idyllic"
-})
-
-make("bob", {
-    "line": "そのツッコミはもうええわ、ロボットにも間違いはあるねん",
-    "balloon": "そのツッコミはもうええわ、ロボットにも間違いはあるねん",
-    "face": "happy"
-})
-
-make("mary", {
-    "line": "ほな、続きよめや、ポンコツ",
-    "balloon": "ほな、続きよめや、ポンコツ",
-    "face": "idyllic"
-})
-
-make("bob", {
-    "line": "" + c_new[3][0][1:],
-    "balloon": "" + c_new[3][0][1:],
-    "face": "happy"
-})
-
-make("mary", {
-    "line": "次、",
-    "balloon": "次、",
+    "line": "ほんで？",
+    "balloon": "ほんで？",
     "face": "idyllic"
 })
 
@@ -404,8 +380,8 @@ make("bob", {
 })
 
 make("mary", {
-    "line": "次、次----",
-    "balloon": "次、次----",
+    "line": "次、次!",
+    "balloon": "次、次!",
     "face": "idyllic"
 })
 #ボケ2
@@ -416,8 +392,8 @@ make("bob", {
 })
 
 make("mary", {
-    "line": "なんでやんん，それはおかしいやろ",
-    "balloon": "何でやねん，それはおかしいやろ",
+    "line": "なんでやねん、それはおかしいやろ。",
+    "balloon": "何でやねん、それはおかしいやろ。",
     "face": "idyllic"
 })
 
@@ -437,8 +413,8 @@ make("mary", {
 #オチ
 
 make("mary", {
-    "line": "もうええわ、作り方なんもわからんから最後に簡単に説明してや",
-    "balloon": "もうええわ、作り方なんもわからんから最後に簡単に説明してや",
+    "line": "もうええわ、作り方なんもわからんから最後に簡単に要約してや",
+    "balloon": "もうええわ、作り方なんもわからんから最後に簡単に要約してや",
     "face": "idyllic"
 })
 
@@ -450,14 +426,8 @@ make("bob", {
 })
 
 make("mary", {
-    "line": "思っていたより上手やな",
-    "balloon": "思っていたより上手やな",
-    "face": "disagreeable"
-})
-
-make("mary", {
-    "line": "でも，それなんかキャッチコピーみたいやん、なんかもうつかれたわ　どうもありがとうございました。",
-    "balloon": "でも，それなんかキャッチコピーみたいやん、なんかもうつかれたわ　どうもありがとうございました。",
+    "line": "もうええわ、どうもありがとうございました。",
+    "balloon": "もうええわ、どうもありがとうございました。",
     "face": "relief"
 })
 
