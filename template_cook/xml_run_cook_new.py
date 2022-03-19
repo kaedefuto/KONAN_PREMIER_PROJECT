@@ -35,14 +35,15 @@ print(c_word[2].replace("   ","，"))
 c = ["タイトル", "要約", "材料", "手順(作り方)" ,"アドバイス", "歴史"]
 print(c_new[3][0])
 """
+#print(c_word)
 
 #bertによるボケの生成
 text_ro, word_ro= Ro.roberta(c_new[3][2])
 #print(c_new[3][2][1:])
-#print(text_ro.replace("▁", "")[1:])
+print(text_ro.replace("▁", "")[1:])
 
 #word2vecによるボケの生成
-#print(c_word[3][1][1:])
+#print(c_word[3][2][1:])
 text1, word,word2 = w2v.w2v(c_word[3][2][1:])
 
 

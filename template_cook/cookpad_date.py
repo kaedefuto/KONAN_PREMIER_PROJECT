@@ -37,11 +37,13 @@ def htmlExtraction(url):
 
 def htmlExtraction_word(url):
     l=[]
+    #print(url)
     r = requests.get(url)
     soup = BeautifulSoup(r.content, "html.parser")
     #print(soup)
     #soup = BeautifulSoup(html,"html.parser")
-    a = soup.find_all("a", class_="recipe-title font13")
+    a = soup.find_all("a", class_="recipe-title")
+    #print(a)
     for i in a:
         #print(i["href"])
         l.append(i["href"])
@@ -113,6 +115,7 @@ def html_word(word):
     for i in range(1):
         url = url1 + word
         links_word=htmlExtraction_word(url)
+        #print(links_word)
     cnt = 0
     #本文抽出
     #print(links_word)

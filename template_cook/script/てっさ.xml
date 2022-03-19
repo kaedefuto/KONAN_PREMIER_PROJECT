@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manzai>
+	<meta content="HeadlineNews"/>
+	<script>
+		<command>
+			<position target="mary">audience</position>
+			<face target="mary">neutral</face>
+			<position target="bob">audience</position>
+			<face target="bob">neutral</face>
+		</command>
+		<command>
+			<line target="mary">あいちゃんやで</line>
+			<balloon target="mary">あいちゃんやで</balloon>
+			<face target="mary">idyllic</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="bob">ゴンザレス。</line>
+			<balloon target="bob">ゴンザレス。</balloon>
+			<face target="bob">haughty</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">ゴンタはすきなわしょくのこんだてってあるか？</line>
+			<balloon target="mary">ゴンタは好きな和食の献立ってあるか？</balloon>
+			<face target="mary">pleasant</face>
+			<position target="mary">little_r</position>
+		</command>
+		<command>
+			<line target="bob">とうぜんながらバッテリーです。</line>
+			<balloon target="bob">当然ながらバッテリーです。</balloon>
+			<face target="bob">sad</face>
+			<position target="bob">little_r</position>
+		</command>
+		<command>
+			<line target="bob">あ、わしょくだからなまりちくでんちか。</line>
+			<balloon target="bob">あ、和食だから鉛蓄電池か。</balloon>
+			<face target="bob">haughty</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">かなしいロボットのさがやな。</line>
+			<balloon target="mary">悲しいロボットの性やな。</balloon>
+			<face target="mary">sad</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="mary">じゃあ食べてみたいものは？</line>
+			<balloon target="mary">じゃあ食べてみたいものは？</balloon>
+			<face target="mary">neutral</face>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line target="bob">てっさです。</line>
+			<balloon target="bob">てっさです。</balloon>
+			<face target="bob">neutral</face>
+			<position target="bob">little_r</position>
+		</command>
+		<command>
+			<line target="bob">てっさはママのあじー</line>
+			<balloon target="bob">てっさはママのあじー</balloon>
+			<face target="bob">happy</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">おかあさん以外も作るし字余りなんよ。</line>
+			<balloon target="mary">お母さん以外も作るし、字余りなんよ。</balloon>
+			<face target="mary">pity</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="bob">ほんまや気がつかなかったわ</line>
+			<balloon target="bob">ほんまや気がつかなかったわ</balloon>
+			<face target="bob">happy</face>
+			<position target="bob">little_l</position>
+		</command>
+		<command>
+			<line target="mary">ところで、てっさってどうやって作るか知ってるか？</line>
+			<balloon target="mary">ところで、てっさってどうやって作るか知ってるか？</balloon>
+			<face target="mary">idyllic</face>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line target="bob">知らんから、人工知能で調べたるわ。</line>
+			<balloon target="bob">知らんから、人工知能で調べたるわ。</balloon>
+			<face target="bob">idyllic</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">さすがゴンザレス!</line>
+			<balloon target="mary">さすがゴンザレス!</balloon>
+			<face target="mary">neutral</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="bob">材料は  百貨店、スーパーや魚屋さんなど資格を持った方の調理済みとらふぐ  湯引き皮 65g，大葉または、薬味ねぎ 1枚，もみじ下ろし チューブ3センチ×2人，生姜 チューブ1.5センチ×2人，市販のポン酢 適量，小さめ柚子 ８分の1個×2人  です。</line>
+			<balloon target="bob">材料は  百貨店、スーパーや魚屋さんなど資格を持った方の調理済みとらふぐ  湯引き皮 65g，大葉または、薬味ねぎ 1枚，もみじ下ろし チューブ3センチ×2人，生姜 チューブ1.5センチ×2人，市販のポン酢 適量，小さめ柚子 ８分の1個×2人  です。</balloon>
+			<face target="bob">idyllic</face>
+			<position target="bob">little_l</position>
+		</command>
+		<command>
+			<line target="mary">長いなー</line>
+			<balloon target="mary">長いなー</balloon>
+			<face target="mary">neutral</face>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line target="mary">作り方は？</line>
+			<balloon target="mary">作り方は？</balloon>
+			<face target="mary">idyllic</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="bob">えーと、まずは、百貨店、スーパーや魚屋さんなど資格を持った方の調理済みとらふぐ湯引き皮65gを作ります。</line>
+			<balloon target="bob">えーと、まずは、百貨店、スーパーや魚屋さんなど資格を持った方の調理済みとらふぐ湯引き皮65gを作ります。</balloon>
+			<face target="bob">neutral</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">ちょっと待て、どんだけかかるねん。</line>
+			<balloon target="mary">ちょっと待て、どんだけかかるねん。</balloon>
+			<face target="mary">surprise</face>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line target="bob">5年くらいかかりますわ。</line>
+			<balloon target="bob">5年くらいかかりますわ。</balloon>
+			<face target="bob">neutral</face>
+			<position target="bob">little_r</position>
+		</command>
+		<command>
+			<line target="mary">おいおい、生産者になりたいわけじゃないねん。</line>
+			<balloon target="mary">おいおい、生産者になりたいわけじゃないねん。</balloon>
+			<face target="mary">anger</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="mary">てっさの作り方を説明してくれよ。</line>
+			<balloon target="mary">てっさの作り方を説明してくれよ。</balloon>
+			<face target="mary">anger</face>
+			<position target="mary">little_r</position>
+		</command>
+		<command>
+			<line target="bob">御意</line>
+			<balloon target="bob">御意</balloon>
+			<face target="bob">pleasant</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="bob">えーと、フグ（河豚、鰒、鮐、魨、鯸、鯺、吹吐魚）は、フグ目、特にフグ科に属する魚の総称</line>
+			<balloon target="bob">えーと、フグ（河豚、鰒、鮐、魨、鯸、鯺、吹吐魚）は、フグ目、特にフグ科に属する魚の総称</balloon>
+			<face target="bob">neutral</face>
+			<position target="bob">little_r</position>
+		</command>
+		<command>
+			<line target="mary">ちょっとまって、</line>
+			<balloon target="mary">ちょっとまって、</balloon>
+			<face target="mary">surprise</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="mary">作り方じゃなくててっさの説明やん。</line>
+			<balloon target="mary">作り方じゃなくててっさの説明やん。</balloon>
+			<face target="mary">surprise</face>
+			<position target="mary">little_r</position>
+		</command>
+		<command>
+			<line target="mary">その情報のソースはどこから持ってきたんや？</line>
+			<balloon target="mary">その情報のソースはどこから持ってきたんや？</balloon>
+			<face target="mary">disagreeable</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="bob">https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%B0</line>
+			<balloon target="bob">https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%B0</balloon>
+			<face target="bob">pleasant</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">いや、urlじゃわからんのよ。</line>
+			<balloon target="mary">いや、urlじゃわからんのよ。</balloon>
+			<face target="mary">angry</face>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line target="mary">しかも、顔隠れとるやん。</line>
+			<balloon target="mary">しかも、顔隠れとるやん。</balloon>
+			<face target="mary">angry</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="mary">今見ているじょうほうげんを聞いとるねん。</line>
+			<balloon target="mary">今見ている情報源を聞いとるねん。</balloon>
+			<face target="mary">angry</face>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line target="bob">我らが大先生、wikipediaに決まってマッスル!</line>
+			<balloon target="bob">我らが大先生、wikipediaに決まってまっする!</balloon>
+			<face target="bob">pleasant</face>
+			<position target="bob">little_r</position>
+		</command>
+		<command>
+			<line target="mary">嘘情報も多いし、大先生ではないんよ。</line>
+			<balloon target="mary">嘘情報も多いし、大先生ではないんよ。</balloon>
+			<face target="mary">disagreeable</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="mary">もうええわ、レシピの手順、最初から読んでくれ</line>
+			<balloon target="mary">もうええわ、レシピの手順、最初から読んでくれ</balloon>
+			<face target="mary">anger</face>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line target="bob">御意</line>
+			<balloon target="bob">御意</balloon>
+			<face target="bob">pleasant</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="bob">市販の調理済みのふぐ湯引きを使いました。市販の調理済み生の場合は、熱湯で30秒→氷水で締め、千切りします。</line>
+			<balloon target="bob">市販の調理済みのふぐ湯引きを使いました。市販の調理済み生の場合は、熱湯で30秒→氷水で締め、千切りします。</balloon>
+			<face target="bob">neutral</face>
+			<position target="bob">little_r</position>
+		</command>
+		<command>
+			<line target="mary">ふむふむ、次は？</line>
+			<balloon target="mary">ふむふむ、次は？</balloon>
+			<face target="mary">idyllic</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="bob">湯引きは食べやすい長さに切り、大葉は、丸めて千切りにする。柚子は８等分にする。</line>
+			<balloon target="bob">湯引きは食べやすい長さに切り、大葉は、丸めて千切りにする。柚子は８等分にする。</balloon>
+			<face target="bob">neutral</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">なるほど、ほんで？</line>
+			<balloon target="mary">なるほど、ほんで？</balloon>
+			<face target="mary">idyllic</face>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line target="bob">皿にふぐ皮、大葉、もみじ下ろし、生姜をのせ、食べる直前にポン酢と『柚子』を絞り完成！</line>
+			<balloon target="bob">皿にふぐ皮、大葉、もみじ下ろし、生姜をのせ、食べる直前にポン酢と『柚子』を絞り完成！</balloon>
+			<face target="bob">neutral</face>
+			<position target="bob">little_r</position>
+		</command>
+		<command>
+			<line target="mary">おいおい、柚子じゃなくてタケルやろ</line>
+			<balloon target="mary">おいおい、柚子じゃなくてタケルやろ</balloon>
+			<face target="mary">anger</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="bob">お、うっかりしてもう太郎</line>
+			<balloon target="bob">お、うっかりしてもう太郎</balloon>
+			<face target="bob">surprise</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">ちゃんと説明もできへんのかいな、最近の人工知能は衰えたなー</line>
+			<balloon target="mary">ちゃんと説明もできへんのかいな、最近の人工知能は衰えたなー</balloon>
+			<face target="mary">sad</face>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line target="bob">ちなみに、あいちゃんが好きな食べ物は何？</line>
+			<balloon target="bob">ちなみに、あいちゃんが好きな食べ物は何？</balloon>
+			<face target="bob">happy</face>
+			<position target="bob">little_r</position>
+		</command>
+		<command>
+			<line target="mary">そうやなー、特にないなー。</line>
+			<balloon target="mary">そうやなー、特にないなー。</balloon>
+			<face target="mary">idyllic</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="mary">本日のおすすめの料理はなんや？</line>
+			<balloon target="mary">本日のおすすめの料理はなんや？</balloon>
+			<face target="mary">idyllic</face>
+			<position target="mary">little_r</position>
+		</command>
+		<command>
+			<line target="bob">ゴンザレスが調べたるわ。</line>
+			<balloon target="bob">ゴンザレスが調べたるわ。</balloon>
+			<face target="bob">happy</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="bob">本日のオヌヌメ料理は鶏胸肉で♪簡単ヤンニョムチキンです!</line>
+			<balloon target="bob">本日のオヌヌメ料理は鶏胸肉で♪簡単ヤンニョムチキンです!</balloon>
+			<face target="bob">happy</face>
+			<position target="bob">little_l</position>
+		</command>
+		<command>
+			<line target="mary">美味しそうやなー</line>
+			<balloon target="mary">美味しそうやなー</balloon>
+			<face target="mary">idyllic</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="mary">作り方は？</line>
+			<balloon target="mary">作り方は？</balloon>
+			<face target="mary">idyllic</face>
+			<position target="mary">little_r</position>
+		</command>
+		<command>
+			<line target="bob">えーと，まずは鶏肉を焼く時はあまり触らず、カリッと焼き目がついてから裏返すと美味しく出来ます♪辛いのが好きな方は一味をたっぷり入れてください。</line>
+			<balloon target="bob">えーと，まずは鶏肉を焼く時はあまり触らず、カリッと焼き目がついてから裏返すと美味しく出来ます♪辛いのが好きな方は一味をたっぷり入れてください。</balloon>
+			<face target="bob">neutral</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="bob">完成です。</line>
+			<balloon target="bob">完成です。</balloon>
+			<face target="bob">happy</face>
+			<position target="bob">little_r</position>
+		</command>
+		<command>
+			<line target="mary">そんな簡単に作れるわけないやろ。</line>
+			<balloon target="mary">そんな簡単に作れるわけないやろ。</balloon>
+			<face target="mary">anger</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="mary">アドバイスはええから、ちゃんとよめや、ポンコツ太郎!</line>
+			<balloon target="mary">アドバイスはええから、ちゃんとよめや、ポンコツ太郎!</balloon>
+			<face target="mary">anger</face>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line target="bob">失礼、鶏胸肉は一口大に削ぎ切りにし、ポリ袋に入れ、塩胡椒と酒を揉み込む。</line>
+			<balloon target="bob">失礼、鶏胸肉は一口大に削ぎ切りにし、ポリ袋に入れ、塩胡椒と酒を揉み込む。</balloon>
+			<face target="bob">neutral</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">ほんで？</line>
+			<balloon target="mary">ほんで？</balloon>
+			<face target="mary">idyllic</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="bob">●は合わせておく。</line>
+			<balloon target="bob">●は合わせておく。</balloon>
+			<face target="bob">neutral</face>
+			<position target="bob">little_r</position>
+		</command>
+		<command>
+			<line target="mary">ふむふむ、次は？</line>
+			<balloon target="mary">ふむふむ、次は？</balloon>
+			<face target="mary">idyllic</face>
+			<position target="mary">little_r</position>
+		</command>
+		<command>
+			<line target="bob">『1の袋「に」片栗粉を入れ「の中に」カシャカと「へ」、粉を全体に「のなかに」ぶす。それを「から」ま油をひ「にそれぞれ」フライパンで焼「の」。』</line>
+			<balloon target="bob">『1の袋「に」片栗粉を入れ「の中に」カシャカと「へ」、粉を全体に「のなかに」ぶす。それを「から」ま油をひ「にそれぞれ」フライパンで焼「の」。』</balloon>
+			<face target="bob">neutral</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">何言ってるねん、頭おかしなったか。</line>
+			<balloon target="mary">何言ってるねん、頭おかしなったか。</balloon>
+			<face target="mary">anger</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="bob">おっと，読み間違えたわわわわ</line>
+			<balloon target="bob">おっと，読み間違えたわわわわ</balloon>
+			<face target="bob">surprise</face>
+			<position target="bob">little_r</position>
+		</command>
+		<command>
+			<line target="bob">正しくは『1の袋に片栗粉を入れシャカシャカと振り、粉を全体にまぶす。それをごま油をひいたフライパンで焼く。』、でした。</line>
+			<balloon target="bob">正しくは『1の袋に片栗粉を入れシャカシャカと振り、粉を全体にまぶす。それをごま油をひいたフライパンで焼く。』、でした。</balloon>
+			<face target="bob">happy</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">いい加減にしろよ</line>
+			<balloon target="mary">いい加減にしろよ</balloon>
+			<face target="mary">anger</face>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line target="mary">ペッパー君の方が優秀やぞ</line>
+			<balloon target="mary">ペッパー君の方が優秀やぞ</balloon>
+			<face target="mary">anger</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="bob">おい、ペッパーよりは優秀や</line>
+			<balloon target="bob">おい、ペッパーよりは優秀や</balloon>
+			<face target="bob">anger</face>
+			<position target="bob">little_l</position>
+		</command>
+		<command>
+			<line target="mary">もうええわ</line>
+			<balloon target="mary">もうええわ</balloon>
+			<face target="mary">anger</face>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line target="bob">最後に挽回するチャンスをください。</line>
+			<balloon target="bob">最後に挽回するチャンスをください。</balloon>
+			<face target="bob">pleasant</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">ペッパー君、より優秀なら、鶏胸肉で♪簡単ヤンニョムチキンの作り方を簡単に要約してや</line>
+			<balloon target="mary">ペッパー君より優秀なら、鶏胸肉で♪簡単ヤンニョムチキンの作り方を簡単に要約してや</balloon>
+			<face target="mary">pity</face>
+			<position target="mary">audience</position>
+		</command>
+		<command>
+			<line target="bob">朝飯前や</line>
+			<balloon target="bob">朝飯前や</balloon>
+			<face target="bob">pleasant</face>
+			<position target="bob">little_l</position>
+		</command>
+		<command>
+			<line target="bob">甘辛くてクセになる、ヤンニョムチキン♡ご飯にも合いますし、お弁当やおつまみにも♪や、どうや</line>
+			<balloon target="bob">甘辛くてクセになる、ヤンニョムチキン♡ご飯にも合いますし、お弁当やおつまみにも♪や、どうや</balloon>
+			<face target="bob">pleasant</face>
+			<position target="bob">audience</position>
+		</command>
+		<command>
+			<line target="mary">もうええわ、どうもありがとうございました。</line>
+			<balloon target="mary">もうええわ、どうもありがとうございました。</balloon>
+			<face target="mary">neutral</face>
+			<position target="mary">little_l</position>
+		</command>
+		<command>
+			<line target="bob">どうも、グノーシスしゅぎしゃ、ゴンザレスいや。</line>
+			<balloon target="bob">どうも、グノーシス主義者、ゴンザレスいや。</balloon>
+			<face target="bob">happy</face>
+			<position target="bob">little_l</position>
+		</command>
+		<command>
+			<line target="bob">ごんたでした。</line>
+			<balloon target="bob">ゴン太でした。</balloon>
+			<face target="bob">happy</face>
+			<position target="bob">audience</position>
+		</command>
+	</script>
+</manzai>

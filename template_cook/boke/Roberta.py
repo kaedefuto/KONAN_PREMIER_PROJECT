@@ -18,11 +18,15 @@ def roberta(text, masked_idx=5):
     tokens = tokenizer.tokenize(text)
     #print(len(tokens))
     #print(tokens)  # output: ['[CLS]', '▁4', '年に', '1', '度', 'オリンピック', 'は', '開かれる', '。']
+    tokens1=list()
+    for i in tokens:
+        tokens1.append(i)
 
     # mask a token
     #masked_idx = 5
-    for i in range(masked_idx,len(tokens),3):
+    for i in range(masked_idx,len(tokens),5):
         tokens[i] = tokenizer.mask_token
+        #tokens[i+1] = tokenizer.mask_token
     #print(tokens)  # output: ['[CLS]', '▁4', '年に', '1', '度', '[MASK]', 'は', '開かれる', '。']
 
     # convert to ids
@@ -49,16 +53,27 @@ def roberta(text, masked_idx=5):
         token_list.append(tokenizer.convert_ids_to_tokens([index])[0])
         #print(i, token)
 
-    l=""
+    #変換前文書
+    #print(tokens)#[MASK]
+    l1=""
+    for i in range(1,len(tokens)):
+        if tokens[i] =="[MASK]":
+            l1+="「"+tokens1[i]+"」"
+        else:
+            l1+=tokens[i]
+    
+    #変換後文書
+    l2=""
     j=0
     for i in tokens[1:]:
-        if i !="[MASK]":
-            l+=i
-        else:
-            l+=token_list[j]
+        if i =="[MASK]":
+            l2+="「"+token_list[j]+"」"
             j+=1
+        else:
+            l2+=i
 
-    return l,token[0]
+
+    return l2,l1
 
 
 
