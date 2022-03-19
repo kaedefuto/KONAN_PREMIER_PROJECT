@@ -40,6 +40,7 @@ print(c_new[3][0])
 #bertによるボケの生成
 text_ro, word_ro= Ro.roberta(c_new[3][2])
 #print(c_new[3][2][1:])
+print(word_ro.replace("▁", "")[1:])
 print(text_ro.replace("▁", "")[1:])
 
 #word2vecによるボケの生成
@@ -451,8 +452,8 @@ make("bob", {
 })
 
 make("bob", {
-    "line": "正しくは『"+c_new[3][2][1:]+"』、でした。",
-    "balloon": "正しくは『"+c_new[3][2][1:]+"』、でした。",
+    "line": "正しくは『"+word_ro.replace("▁", "")[1:]+"』、でした。",
+    "balloon": "正しくは『"+word_ro.replace("▁", "")[1:]+"』、でした。",
     "face": "happy"
 })
 
