@@ -40,7 +40,7 @@ python xml_run_cook_new.py
 - 漫才台本(xml)が生成される
 
 ## URL
-- http://www.nadasemi.jp/robot_manzai/chatapplication_hackathon_3/
+- http://www.nadasemi.jp/robot_manzai/chatapplication_futo/
 
 ## ボケ
 - RoBERTaのMASKによるボケの生成
